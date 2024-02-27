@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MicroS-Auth-GUser.props" />
+</Project>

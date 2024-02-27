@@ -1,0 +1,6 @@
+@MicroSAuth_GUser_HostAddress = http://localhost:5289
+
+GET {{MicroSAuth_GUser_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

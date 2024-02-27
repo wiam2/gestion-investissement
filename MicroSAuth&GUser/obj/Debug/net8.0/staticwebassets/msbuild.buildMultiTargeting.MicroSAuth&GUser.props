@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MicroSAuth&amp;GUser.props" />
+</Project>
