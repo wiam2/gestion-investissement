@@ -1,0 +1,213 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+*, ::before ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.parent {
+  display: flex;
+  padding-top: 100px;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative; /* Permet de positionner les conteneurs enfants relativement */
+}
+
+.container {
+  width: 80%;
+  max-width: 700px;
+  min-width: 290px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to left, #95a2ee, #dde1e7);
+  margin-bottom: 20px; /* Espacement entre les conteneurs */
+}
+
+
+.profil-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #888888;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px 20px 0px;
+  float: left;
+  shape-outside: circle();
+}
+
+.profil-img i {
+  font-size: 24px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+
+}
+
+.buttons-container {
+  display: flex;
+  /* Aligner les boutons à droite */
+}
+
+.buttons-container button {
+  margin-left: 10px;
+  width: 100px;
+  height: 10px;
+  font-size: 0.9rem;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  background-color:   #8C52FF;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;/* Ajouter un espace de 10 pixels entre les boutons */
+}
+.form-container {
+  width: 48%; /* Utiliser le reste de l'espace pour le formulaire */
+}
+
+.title::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background: linear-gradient(123deg,#8C52FF,#120F4D);
+}
+
+.title{
+  font-size: 25px;
+  position: relative;
+  color: #8C52FF;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajoute une ombre portée */
+  transition: color 0.3s ease;
+  width: 25%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  background: linear-gradient(to left, #aaaaaa, #dde1e7);
+}
+
+.bi{
+  padding-right:5px ;
+}
+.right-section {
+width: 300px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.left-section {
+  flex-grow: 4; /* La section gauche prendra autant d'espace que possible */
+}
+
+.poste-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px #8C52FF;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+ h3 {
+   margin-top: -20px;
+   padding-bottom: 20px;
+   font-size: 1.2rem;
+   font-weight: bold;
+   color: #8C52FF;
+   text-align: center;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+   transition: color 0.3s ease;
+}
+ h3:hover {
+  color: #120F4D ;
+
+}
+.form-control input,textarea {
+  width: 100%;
+  max-width: 95%;
+  height: 60%;
+  padding: 12px 0 12px 37px;
+  border: 2px solid #8C52FF;
+  color: #120F4D;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.form-control input:focus {
+  outline: none;
+  border: 2px solid #5CE1E6;
+}
+.form-control textarea:focus {
+  outline: none;
+  border: 2px solid #5CE1E6;
+}
+
+
+
+
+
+.bi.bi-images {
+  margin-left: 10px;
+  position: relative; /* Utilisez position relative pour positionner par rapport au parent */
+  color: #8C52FF;
+  vertical-align: middle;
+  display:flex; align-items:center;
+
+}
+
+
+.button input {
+  width:  calc(100% - 5px);
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  height: 40px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 10px;
+
+}
+.button-container {
+  display: flex;
+  justify-content: center; /* Alignement horizontal au centre */
+}
+.button-container .violet-button input {
+  background-color: #8C52FF;
+
+}
+
+.button-container .red-button input {
+  background-color: red;
+}
+
+.button-container .button:hover input {
+  background-color: #5CE1E6;
+}
+
