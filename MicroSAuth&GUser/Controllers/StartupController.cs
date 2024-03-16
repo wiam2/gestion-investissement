@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace MicroSAuth_GUser.Controllers
 {
     [ApiController]
-    [Authorize(Roles = "RStartup")]
+   
     [Route("[controller]")]
     public class StartupController : ControllerBase
     {

@@ -8,6 +8,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using static MicroSAuth_GUser.DTOs.ServiceResponses;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MicroSAuth_GUser.Repositories
 {
@@ -58,12 +59,12 @@ namespace MicroSAuth_GUser.Repositories
         {
             if (startupDTO is null) return new GeneralResponse(false, "Model is empty");
             float capital = startupDTO.Capital ?? 0.0f;
-            
+
             var newUser = new ApplicationStartup()
             {
                 Nomstr = startupDTO.Nomstr,
                 DateInscription = startupDTO.DateInscription,
-                
+
                 Fondateur = startupDTO.Fondateur,
                 Capital = capital,
                 Ville = startupDTO.Ville,
@@ -120,7 +121,7 @@ namespace MicroSAuth_GUser.Repositories
             return new LoginResponse(true, token!, "Login completed");
         }
 
-       
+
 
         private string GenerateToken(UserSession user)
         {
@@ -141,5 +142,6 @@ namespace MicroSAuth_GUser.Repositories
                 );
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+      
     }
 }

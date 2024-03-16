@@ -48,6 +48,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MicroSAuth_GUser.Controllers.test",
+    "Method": "GetAllInvestisseurs",
+    "RelativePath": "api/test/affichageInvestisseurs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroSAuth_GUser.Controllers.test",
+    "Method": "RegisterInvestisseur",
+    "RelativePath": "api/test/registerInvestisseur",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "investisseurDTO",
+        "Type": "MicroSAuth_GUser.DTOs.InvestisseurDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MicroSAuth_GUser.Controllers.InvestisseurController",
     "Method": "GetInvestisseurById",
     "RelativePath": "Investisseur/affichageInvestisseur/{id}",

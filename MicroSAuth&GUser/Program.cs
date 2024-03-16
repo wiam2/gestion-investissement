@@ -8,10 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Net.Http.Headers;
 using Microsoft.OpenApi.Models;
-
+using Steeltoe.Discovery.Client;
 using Swashbuckle.AspNetCore.Filters;
 using System.Text;
 
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,7 +29,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection") ??
         throw new InvalidOperationException("Connection string is not found"));
 });
- 
+builder.Services.AddDiscoveryClient(builder.Configuration);
+
+
 // Add identity &jwt auth
 //identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
@@ -85,7 +88,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
     app.UseCors(policy =>
     {
-        policy.WithOrigins("http://localhost:5289", "https://localhost:44346")
+        policy.WithOrigins("http://localhost:5289", "https://localhost:44346", "https://localhost:7225/")
         .AllowAnyMethod()
         .AllowAnyHeader()
         .WithHeaders(HeaderNames.ContentType);

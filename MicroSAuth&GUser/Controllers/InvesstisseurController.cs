@@ -1,4 +1,5 @@
-﻿using MicroSAuth_GUser.DTOs;
+﻿using MicroSAuth_GUser.Data;
+using MicroSAuth_GUser.DTOs;
 using MicroSAuth_GUser.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +10,7 @@ namespace MicroSAuth_GUser.Controllers
 {
     [ApiController]
 
-    [Authorize(Roles = "RInvestisseur")]
+   
     [Route("[controller]")]
     public class InvestisseurController : ControllerBase
     {

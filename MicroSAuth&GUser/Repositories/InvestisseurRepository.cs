@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MicroSAuth_GUser.Repositories
 {
-    public class InvestisseurRepository:IinvistisseurService
+    public class InvestisseurRepository
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
@@ -102,7 +102,7 @@ namespace MicroSAuth_GUser.Repositories
             _userManager.UpdateNormalizedUserNameAsync(user);
             investisseur.PasswordHash = _userManager.PasswordHasher.HashPassword(user, investisseurDTO.Password);
 
-
+          
 
             // Mettre à jour l'utilisateur dans la base de données
 
