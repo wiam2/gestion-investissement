@@ -3,12 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\dtos\\startupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\dtos\\startupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\I511\\source\\repos\\MicroServiceMessagerie\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +60,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\controllers\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\controllers\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\micros-auth-guser.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -59,20 +86,12 @@
       "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\services\\iinvistisseurservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\i511\\onedrive\\bureau\\projets\\test\\gestion-investissement\\microsauth\u0026guser\\data\\applicationstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,15 +101,78 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 322,
+      "VerticalTabListWidth": 100,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StartupDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\StartupDTO.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\StartupDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\StartupDTO.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\DTOs\\StartupDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T20:57:58.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\UserSession.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\UserSession.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\UserSession.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\DTOs\\UserSession.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T20:57:33.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\DTOs\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T20:27:20.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\WeatherForecast.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T17:58:09.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\I511\\source\\repos\\MicroServiceMessagerie\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\MicroServiceMessagerie\\appsettings.json",
+              "ToolTip": "C:\\Users\\I511\\source\\repos\\MicroServiceMessagerie\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\MicroServiceMessagerie\\appsettings.json",
+              "ViewState": "AQIAABEAAAAAAAAAAAAYwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-05T02:32:03.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "StartupController.cs",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\StartupController.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\StartupController.cs",
@@ -102,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 14,
               "Title": "test.cs",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\test.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\test.cs",
@@ -114,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "MicroSAuth\u0026GUser.http",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\MicroSAuth\u0026GUser.http",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\MicroSAuth\u0026GUser.http",
@@ -126,19 +208,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Properties\\launchSettings.json",
               "RelativeToolTip": "MicroSAuth\u0026GUser\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-03-11T20:42:34.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "ServiceResponses.cs",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\ServiceResponses.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\ServiceResponses.cs",
@@ -150,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "InvestisseurDTO.cs",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\InvestisseurDTO.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\InvestisseurDTO.cs",
@@ -162,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 2,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\UserDTO.cs",
@@ -170,11 +252,12 @@
               "RelativeToolTip": "MicroSAuth\u0026GUser\\DTOs\\UserDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T17:17:32.078Z"
+              "WhenOpened": "2024-03-02T17:17:32.078Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\WeatherForecastController.cs",
@@ -186,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\AccountController.cs",
@@ -198,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "MicroS-Auth-GUser.csproj",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj",
@@ -210,19 +293,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Program.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Program.cs",
               "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Program.cs",
               "RelativeToolTip": "MicroSAuth\u0026GUser\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T22:21:27.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 1,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Data\\ApplicationUser.cs",
@@ -230,11 +313,12 @@
               "RelativeToolTip": "MicroSAuth\u0026GUser\\Data\\ApplicationUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T22:14:46.652Z"
+              "WhenOpened": "2024-03-01T22:14:46.652Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Data\\AppDbContext.cs",
@@ -246,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "IinvistisseurService.cs",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Services\\IinvistisseurService.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Services\\IinvistisseurService.cs",
@@ -258,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "ApplicationStartup.cs",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Data\\ApplicationStartup.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Data\\ApplicationStartup.cs",
@@ -270,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "InvesstisseurController.cs",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\InvesstisseurController.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\InvesstisseurController.cs",
@@ -282,20 +366,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Repositories\\AccountRepository.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Repositories\\AccountRepository.cs",
               "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Repositories\\AccountRepository.cs",
               "RelativeToolTip": "MicroSAuth\u0026GUser\\Repositories\\AccountRepository.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAkwJAAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJAAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-27T21:04:58.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "InvestisseurRepository.cs",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\Repositories\\InvestisseurRepository.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Repositories\\InvestisseurRepository.cs",
@@ -307,13 +391,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\appsettings.json",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\appsettings.json",
               "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\Projets\\test\\gestion-investissement\\MicroSAuth\u0026GUser\\appsettings.json",
               "RelativeToolTip": "MicroSAuth\u0026GUser\\appsettings.json",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAiwCgAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-02-27T17:31:40.606Z",
               "EditorCaption": ""
