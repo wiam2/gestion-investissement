@@ -1,0 +1,196 @@
+<app-navbar></app-navbar>
+<div class="parent">
+<!-- Navbar top -->
+<div class="navbar-top">
+  <div class="title">
+    <h1>Profile</h1>
+  </div>
+  <!-- End -->
+</div>
+<!-- End -->
+
+<!-- Sidenav -->
+<div class="sidenav">
+  <div class="profile">
+    <div class="name">
+     InvestLink
+    </div>
+    <div class="job" *ngIf="role === 'Invest'; else startupBlock">
+      Investisseur Description
+    </div>
+    <ng-template #startupBlock>
+      <div class="job">
+        Startup Description
+      </div>
+    </ng-template>
+
+
+  </div>
+
+  <div class="sidenav-url">
+
+    <div class="url">
+      <a href="#profile" class="active">Profile </a>
+      <hr align="center">
+    </div>
+  </div>
+</div>
+<!-- End -->
+
+<!-- Main -->
+<div class="main">
+  <h2>Informations personnelles :</h2>
+  <div class="card">
+    <div class="card-body">
+
+      <div class="buttons-container">
+
+        <button class="blue-button"> <i class="bi bi-pencil-square"></i></button>
+        <button class="red-button"><i class="bi bi-trash-fill"></i></button>
+      </div>
+
+      <table *ngIf="role === 'Invest'; else startupDefenition" >
+        <tbody>
+        <tr>
+          <td>Nom</td>
+          <td>:</td>
+          <td>El Azouan</td>
+        </tr>
+        <tr>
+          <td>Prenom</td>
+          <td>:</td>
+          <td>Aya</td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>:</td>
+          <td>imdezcode@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td>:</td>
+          <td>Bali, Indonesia</td>
+        </tr>
+        <tr>
+          <td>Telephone</td>
+          <td>:</td>
+          <td>+2123456789</td>
+        </tr>
+        <tr>
+          <td>Profession</td>
+          <td>:</td>
+          <td>Web Developer</td>
+        </tr>
+
+        </tbody>
+      </table>
+      <ng-template #startupDefenition>
+        <table>
+        <tbody>
+        <tr>
+          <td>Le nom officiel</td>
+          <td>:</td>
+          <td>El Azouan</td>
+        </tr>
+        <tr>
+          <td>Date de creation</td>
+          <td>:</td>
+          <td>28/05/2023</td>
+        </tr>
+        <tr>
+          <td>Fondateur</td>
+          <td>:</td>
+          <td>aya eljoj</td>
+        </tr>
+        <tr>
+          <td>Domain d'activité</td>
+          <td>:</td>
+          <td>info</td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>:</td>
+          <td>aya@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Site Web</td>
+          <td>:</td>
+          <td>ayaihgio)i.com</td>
+        </tr>
+        <tr>
+          <td>Ville</td>
+          <td>:</td>
+          <td>tanger</td>
+        </tr>
+        <tr>
+          <td>Adresse</td>
+          <td>:</td>
+          <td>bbbbbb</td>
+        </tr>
+
+        </tbody>
+        </table>
+
+      </ng-template>
+    </div>
+  </div>
+
+  <h2>Postes :</h2>
+  <div class="card">
+      <div class="card-body2">
+        <div class="buttons-container">
+          <button class="green-button"> <i class="bi bi-calendar-x-fill"></i></button>
+          <button class="blue-button"> <i class="bi bi-pencil-square"></i></button>
+          <button class="red-button"><i class="bi bi-trash-fill"></i></button>
+        </div>
+        <div class="profil-img"><i class="bi bi-person-circle"></i></div>
+
+        <div class="leading-2">
+          <h5 class="font-bold text-black">Mellisa Bay</h5>
+          <span style="font-size: 14px;">3h ago</span>
+        </div>
+        <div class="font-size-sm px-3 py-2 text-dark">
+          <p class="smaller-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto consectetur consequuntur culpa delectus
+            doloribus enim id impedit incidunt provident quasi ratione recusandae reprehenderit rerum sapiente suscipit totam
+            vel voluptate voluptatem, voluptatibus. Alias assumenda commodi dolor eaque error et eum illum magni maxime nam nemo
+            perferendis, perspiciatis quisquam tenetur ullam. A aliquam architecto ducimus laboriosam odit? Adipisci asperiores
+            consequatur dicta dolor excepturi minima odio quo sequi sit, soluta! Beatae corporis deleniti eum laudantium
+            nesciunt perferendis, quo voluptas voluptatibus. Asperiores atque beatae culpa, ex expedita illo impedit molestiae
+            nemo, nulla obcaecati odio placeat quam quas quod reiciendis repudiandae voluptas voluptates voluptatum.</p>
+        </div>
+
+
+
+      </div>
+    </div>
+  <div class="card">
+    <div class="card-body2">
+      <div class="buttons-container">
+        <button class="green-button"> <i class="bi bi-calendar-x-fill"></i></button>
+        <button class="blue-button"> <i class="bi bi-pencil-square"></i></button>
+        <button class="red-button"><i class="bi bi-trash-fill"></i></button>
+      </div>
+      <div class="profil-img"><i class="bi bi-person-circle"></i></div>
+
+      <div class="leading-2">
+        <h5 class="font-bold text-black">Mellisa Bay</h5>
+        <span style="font-size: 14px;">3h ago</span>
+      </div>
+      <div class="font-size-sm px-3 py-2 text-dark">
+        <p class="smaller-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto consectetur consequuntur culpa delectus
+          doloribus enim id impedit incidunt provident quasi ratione recusandae reprehenderit rerum sapiente suscipit totam
+          vel voluptate voluptatem, voluptatibus. Alias assumenda commodi dolor eaque error et eum illum magni maxime nam nemo
+          perferendis, perspiciatis quisquam tenetur ullam. A aliquam architecto ducimus laboriosam odit? Adipisci asperiores
+          consequatur dicta dolor excepturi minima odio quo sequi sit, soluta! Beatae corporis deleniti eum laudantium
+          nesciunt perferendis, quo voluptas voluptatibus. Asperiores atque beatae culpa, ex expedita illo impedit molestiae
+          nemo, nulla obcaecati odio placeat quam quas quod reiciendis repudiandae voluptas voluptates voluptatum.</p>
+      </div>
+
+
+
+    </div>
+  </div>
+  </div>
+</div>
+
+

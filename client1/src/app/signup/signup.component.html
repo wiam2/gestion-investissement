@@ -1,0 +1,187 @@
+<div class="parent">
+  <div class="header">
+    <div class="header2">
+      <div class="sub1">
+        <img src="assets/logo.png" alt="Avatar" class="avatar-image">
+      </div>
+      <div class="sub2">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">about</a></li>
+
+        </ul>
+      </div>
+    </div>
+  <div class="container">
+
+
+
+
+
+
+
+
+
+
+    <div class="title">Inscription</div>
+
+    <form action="#">
+      <div class="user_details">
+        <div class="input_pox">
+          <span class="datails">Email</span>
+          <div class="form-control">
+            <i class="bi bi-envelope-open-fill"></i>
+            <input type="text" placeholder="Saisir votre email" id="email" required>
+          </div>
+
+        </div>
+
+        <div class="input_pox">
+          <span class="datails">Telephone</span>
+          <div class="form-control">
+            <i class="bi bi-telephone-fill"></i>
+            <input type="text" placeholder="Saisir votre Numero" required>
+          </div>
+        </div>
+        <div class="input_pox">
+          <span class="datails"> Mot de Passe</span>
+          <div class="form-control">
+            <i class="bi bi-lock-fill"></i>
+            <input type="text" placeholder="Confirmer Mot de passe" required>
+          </div>
+          <i class="self-stretch relative">
+            Utilisez 8 caractères ou plus avec un mélange de lettres, de
+            chiffres et de symboles.
+          </i>
+        </div>
+        <div class="input_pox">
+          <span class="datails">Confirmer Mot de Passe</span>
+          <div class="form-control">
+            <i class="bi bi-lock-fill"></i>
+            <input type="text" placeholder="Confirmer Mot de passe" required>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="gender_details">
+        <input type="radio" name="role" id="Invest" (change)="choix='Invest'">
+        <input type="radio" name="role" id="startup" (change)="choix='startup'" >
+        <span class="gender_title"> Êtes-vous??</span>
+        <div class="category">
+          <label for="Invest">
+            <span class="dot one" ></span>
+            <span class="gender">Invertisseur</span>
+          </label>
+          <label for="startup">
+            <span class="dot two"></span>
+            <span class="gender">Start-up</span>
+          </label>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</div>
+
+<div class="parent"  *ngIf="choix === 'Invest'">
+  <div class="container">
+    <div class="title">Details</div>
+    <form  action="#" >
+      <div class="user_details">
+        <div class="input_pox">
+          <span class="datails">Nom</span>
+          <input type="text" placeholder="Saisir votre nom" required>
+        </div>
+        <div class="input_pox">
+          <span class="datails">Prenom</span>
+          <input type="text" placeholder="Saisir votre prenom" required>
+        </div>
+        <div class="input_pox">
+          <span class="datails">CIN</span>
+          <input type="text" placeholder="Saisir Votre CIN" required>
+        </div>
+
+      </div>
+      <div class="user_details1">
+        <div class="input_box">
+          <span class="details">Historique</span>
+          <textarea placeholder="Voulez-vous parler de votre experiences??" ></textarea>
+        </div>
+      </div>
+      <div class="button-container">
+        <div class="button violet-button">
+          <input type="submit" value="Enregistrer">
+        </div>
+        <div class="button red-button">
+          <input type="submit" value="Reset">
+        </div>
+      </div>
+    </form>
+
+
+  </div>
+</div>
+
+<div class="parent1 "  *ngIf="choix === 'startup'">
+  <div class="container">
+    <div class="title">Details</div>
+    <form  *ngIf="choix === 'startup'" action="#">
+      <div class="user_details">
+        <div class="input_pox">
+          <span class="datails">Nom</span>
+          <input type="text" placeholder=" le nom officiel de start-up" required>
+        </div>
+        <div class="input_pox">
+          <span class="datails">Date de creation</span>
+          <input type="text" placeholder="01/01/2023" required>
+        </div>
+        <div class="input_pox">
+          <span class="datails">Fondateur</span>
+          <input type="text" placeholder=" Votre Nom" required>
+        </div>
+        <div class="input_pox">
+          <span class="datails">Domain d'activité</span>
+          <input type="text" placeholder="Domain d'activité" required>
+        </div>
+        <div class="input_pox">
+          <span class="datails">Capacité</span>
+          <input type="text" placeholder=" Capacité d'employeur" required>
+        </div>
+
+        <div class="input_pox">
+          <span class="datails">Capital</span>
+          <input type="text" placeholder="Votre Capital" required>
+        </div>
+        <div class="input_pox">
+          <span class="datails">Site web</span>
+          <input type="text" placeholder=" Site web" required>
+
+        </div>
+        <div class="input_pox">
+          <span class="datails">Ville</span>
+          <input type="text" placeholder=" Votre ville" required>
+        </div>
+        <div class="input_pox">
+          <span class="datails ">Adresse</span>
+          <input type="text" placeholder=" Votre adresse" required>
+        </div>
+      </div>
+      <div class="user_details1">
+        <div class="input_box">
+          <span class="details">Description</span>
+          <textarea placeholder="Voulez-vous partager de votre experiences??" ></textarea>
+        </div>
+      </div>
+      <div class="button-container">
+        <div class="button violet-button">
+          <input type="submit" value="Enregistrer">
+        </div>
+        <div class="button red-button">
+          <input type="submit" value="Reset">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+

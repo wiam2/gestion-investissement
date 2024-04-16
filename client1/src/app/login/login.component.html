@@ -1,0 +1,33 @@
+<div class="container">
+  <div class="left-section">
+
+    <div class="panel left-panel" >
+      <div class="content">
+        <h3>Nouveau dans notre communauté ?</h3>
+        <p>Découvrez un monde de possibilités ! Rejoignez-nous et explorez une communauté dynamique où les idées prospèrent et les liens se renforcent.</p>
+        <button class="button-signup" id="sign-up-btn" (click)="redirectToSignup()" >S'inscrire</button>
+      </div>
+      <img src="assets/startups.png" alt="Avar" class="avatar-image1">
+
+    </div>
+  </div>
+  <div class="right-section">
+    <div class="login-container" >
+      <form class="login-form" (submit)="signin()">
+        <img src="assets/logo.png" alt="Avatar" class="avatar-image">
+        <h2 class="login-title"> Se connecter</h2>
+        <div class="form-control">
+          <i class="fas fa-user icon"></i>
+          <input type="text" placeholder="Email" id="username"  [(ngModel)]="Email" required>
+        </div>
+        <div class="form-control">
+          <i class="fas fa-lock icon"></i>
+          <input type="password" placeholder="Mot de Passe" id="password" [(ngModel)]="password" >
+        </div>
+
+        <button type="submit">Se connecter</button>
+
+      </form>
+    </div>
+  </div>
+</div>
