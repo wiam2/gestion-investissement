@@ -13,16 +13,16 @@
   </div>
   <div class="right-section">
     <div class="login-container" >
-      <form class="login-form" (submit)="signin()">
+      <form class="login-form" >
         <img src="assets/logo.png" alt="Avatar" class="avatar-image">
         <h2 class="login-title"> Se connecter</h2>
         <div class="form-control">
           <i class="fas fa-user icon"></i>
-          <input type="text" placeholder="Email" id="username"  [(ngModel)]="Email" required>
+          <input type="text" placeholder="Email" id="username" required>
         </div>
         <div class="form-control">
           <i class="fas fa-lock icon"></i>
-          <input type="password" placeholder="Mot de Passe" id="password" [(ngModel)]="password" >
+          <input type="password" placeholder="Mot de Passe" id="password"  >
         </div>
 
         <button type="submit">Se connecter</button>
