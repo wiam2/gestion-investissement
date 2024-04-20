@@ -8,14 +8,15 @@ import {MainPageComponent} from "./main-page/main-page.component";
 import {ProfileComponent} from "./profile/profile.component";
 import {ChatboxComponent} from "./chatbox/chatbox.component";
 import {EditProfileComponent } from "./edit-profile/edit-profile.component"
+import { PageGuard } from './guards/pageguard.guard';
 const routes: Routes = [
   {
     path:'',
     component:HomeComponent
   },
   {
-    path:'page',
-    component:MainPageComponent
+    path:'page', 
+    component:MainPageComponent ,canActivate: [PageGuard]
   },
   {
     path:'login',
@@ -30,7 +31,7 @@ const routes: Routes = [
     component:NavbarComponent
   },
   {
-    path:'profile',
+    path:'profile/:id',
     component:ProfileComponent
   },
   {

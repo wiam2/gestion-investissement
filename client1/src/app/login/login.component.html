@@ -18,14 +18,14 @@
         <h2 class="login-title"> Se connecter</h2>
         <div class="form-control">
           <i class="fas fa-user icon"></i>
-          <input type="text" placeholder="Email" id="username" required>
+          <input type="text" placeholder="Email" [(ngModel)]="User.email" name ="email" required>
         </div>
         <div class="form-control">
           <i class="fas fa-lock icon"></i>
-          <input type="password" placeholder="Mot de Passe" id="password"  >
+          <input type="password" placeholder="Mot de Passe" [(ngModel)]="User.password" name ="password"  >
         </div>
 
-        <button type="submit">Se connecter</button>
+        <button type="submit" (click)="login()" >Se connecter</button>
 
       </form>
     </div>

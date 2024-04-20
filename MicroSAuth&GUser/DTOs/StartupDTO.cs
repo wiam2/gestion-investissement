@@ -16,7 +16,7 @@ namespace MicroSAuth_GUser.DTOs
         public string Nomstr { get; set; } = string.Empty;
         [Required]
         public DateTime? DateInscription { get; set; } =null;
-        [Required]
+      
         public string Fondateur { get; set; } = string.Empty;
         [Required]
         public float? Capital { get; set; } = null;

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
+import { RouterModule } from "@angular/router";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
@@ -11,6 +12,7 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ChatboxComponent } from './chatbox/chatbox.component';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,8 +29,14 @@ import { EditProfileComponent } from './edit-profile/edit-profile.component';
 
   ],
   imports: [
+    
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule,
+    FormsModule,
+    HttpClientModule,
+  
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -12,10 +12,10 @@
       <ul class="menu-items" style="margin-left: auto;"> <!-- Utilisation de "margin-left: auto;" pour éloigner les éléments vers la droite -->
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
-        <li><i class="bi bi-person-circle"></i></li>
+        <li><i class="bi bi-person-circle" (click)="MyProfile()"></i></li>
         <li><i class="bi bi-bell-fill"  ></i></li>
-        <li><i class="bi bi-chat-left-text"></i></li>
-        <li><i class="bi bi-box-arrow-right"></i></li>
+        <li><i class="bi bi-chat-left-text" (click)="mychat()"></i></li>
+        <li><i class="bi bi-box-arrow-right" (click)="logout()"></i></li>
       </ul>
     </div>
   </nav>

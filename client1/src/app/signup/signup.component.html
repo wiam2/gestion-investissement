@@ -8,20 +8,11 @@
         <ul>
           <li><a href="">Home</a></li>
           <li><a href="">about</a></li>
-
         </ul>
       </div>
     </div>
+  </div>
   <div class="container">
-
-
-
-
-
-
-
-
-
 
     <div class="title">Inscription</div>
 
@@ -31,7 +22,7 @@
           <span class="datails">Email</span>
           <div class="form-control">
             <i class="bi bi-envelope-open-fill"></i>
-            <input type="text" placeholder="Saisir votre email" id="email" required>
+            <input type="text" placeholder="Saisir votre email" [(ngModel)]="User.email" name="email" required>
           </div>
 
         </div>
@@ -40,14 +31,14 @@
           <span class="datails">Telephone</span>
           <div class="form-control">
             <i class="bi bi-telephone-fill"></i>
-            <input type="text" placeholder="Saisir votre Numero" required>
+            <input type="text" placeholder="Saisir votre Numero" [(ngModel)]="Investisseur.tel" name="telephon" required>
           </div>
         </div>
         <div class="input_pox">
           <span class="datails"> Mot de Passe</span>
           <div class="form-control">
             <i class="bi bi-lock-fill"></i>
-            <input type="text" placeholder="Confirmer Mot de passe" required>
+            <input type="text" placeholder=" Mot de passe " [(ngModel)]="User.password" name="password" required>
           </div>
           <i class="self-stretch relative">
             Utilisez 8 caractères ou plus avec un mélange de lettres, de
@@ -58,7 +49,7 @@
           <span class="datails">Confirmer Mot de Passe</span>
           <div class="form-control">
             <i class="bi bi-lock-fill"></i>
-            <input type="text" placeholder="Confirmer Mot de passe" required>
+            <input type="text" placeholder="Confirmer Mot de passe" [(ngModel)]="User.confirmPassword" name="confirmed_password" required>
           </div>
 
         </div>
@@ -91,27 +82,27 @@
       <div class="user_details">
         <div class="input_pox">
           <span class="datails">Nom</span>
-          <input type="text" placeholder="Saisir votre nom" required>
+          <input type="text" placeholder="Saisir votre nom" [(ngModel)]="Investisseur.nom" name="nom" required>
         </div>
         <div class="input_pox">
           <span class="datails">Prenom</span>
-          <input type="text" placeholder="Saisir votre prenom" required>
+          <input type="text" placeholder="Saisir votre prenom" [(ngModel)]="Investisseur.prenom" name="prenom" required>
         </div>
         <div class="input_pox">
           <span class="datails">CIN</span>
-          <input type="text" placeholder="Saisir Votre CIN" required>
+          <input type="text" placeholder="Saisir Votre CIN" [(ngModel)]="Investisseur.cin" name="cin" required>
         </div>
 
       </div>
       <div class="user_details1">
         <div class="input_box">
-          <span class="details">Historique</span>
-          <textarea placeholder="Voulez-vous parler de votre experiences??" ></textarea>
+          <span class="details">profilDescription</span>
+          <textarea placeholder="Voulez-vous parler de votre experiences??" [(ngModel)]="Investisseur.profilDescription" name="profilDescription" ></textarea>
         </div>
       </div>
       <div class="button-container">
         <div class="button violet-button">
-          <input type="submit" value="Enregistrer">
+          <input type="submit" value="Enregistrer" (click)="onSubmit()">
         </div>
         <div class="button red-button">
           <input type="submit" value="Reset">
@@ -123,59 +114,56 @@
   </div>
 </div>
 
-<div class="parent1 "  *ngIf="choix === 'startup'">
+<div class="parent1"  *ngIf="choix === 'startup'">
   <div class="container">
     <div class="title">Details</div>
     <form  *ngIf="choix === 'startup'" action="#">
       <div class="user_details">
         <div class="input_pox">
           <span class="datails">Nom</span>
-          <input type="text" placeholder=" le nom officiel de start-up" required>
+          <input type="text" placeholder=" le nom officiel de start-up" [(ngModel)]="Startup.nomstr" name="nomstr" required>
         </div>
-        <div class="input_pox">
-          <span class="datails">Date de creation</span>
-          <input type="text" placeholder="01/01/2023" required>
-        </div>
+       
         <div class="input_pox">
           <span class="datails">Fondateur</span>
-          <input type="text" placeholder=" Votre Nom" required>
+          <input type="text" placeholder=" Votre Nom" [(ngModel)]="Startup.fondateur" name="fondateur" required>
         </div>
         <div class="input_pox">
           <span class="datails">Domain d'activité</span>
-          <input type="text" placeholder="Domain d'activité" required>
+          <input type="text" placeholder="Domain d'activité" [(ngModel)]="Startup.domaine" name="domaine" required>
         </div>
         <div class="input_pox">
           <span class="datails">Capacité</span>
-          <input type="text" placeholder=" Capacité d'employeur" required>
+          <input type="number" placeholder=" Capacité d'employeur" [(ngModel)]="Startup.capacite" name="capacite" required>
         </div>
 
         <div class="input_pox">
           <span class="datails">Capital</span>
-          <input type="text" placeholder="Votre Capital" required>
+          <input type="number" placeholder="Votre Capital"[(ngModel)]="Startup.capital" name="capital" required>
         </div>
         <div class="input_pox">
           <span class="datails">Site web</span>
-          <input type="text" placeholder=" Site web" required>
+          <input type="text" placeholder=" Site web" [(ngModel)]="Startup.siteweb" name="siteweb" required>
 
         </div>
         <div class="input_pox">
           <span class="datails">Ville</span>
-          <input type="text" placeholder=" Votre ville" required>
+          <input type="text" placeholder=" Votre ville" [(ngModel)]="Startup.ville" name="ville" required>
         </div>
         <div class="input_pox">
           <span class="datails ">Adresse</span>
-          <input type="text" placeholder=" Votre adresse" required>
+          <input type="text" placeholder=" Votre adresse" [(ngModel)]="Startup.lieu" name="lieu" required>
         </div>
       </div>
       <div class="user_details1">
         <div class="input_box">
           <span class="details">Description</span>
-          <textarea placeholder="Voulez-vous partager de votre experiences??" ></textarea>
+          <textarea placeholder="Voulez-vous partager de votre experiences??" [(ngModel)]="Startup.description" name="description" ></textarea>
         </div>
       </div>
       <div class="button-container">
         <div class="button violet-button">
-          <input type="submit" value="Enregistrer">
+          <input type="submit" value="Enregistrer" (click)="onSubmit1()">
         </div>
         <div class="button red-button">
           <input type="submit" value="Reset">
@@ -184,4 +172,3 @@
     </form>
   </div>
 </div>
-
