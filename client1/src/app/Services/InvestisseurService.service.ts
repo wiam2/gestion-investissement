@@ -19,4 +19,5 @@ export class InvestisseurService {
     GetProfileInv(id:string):Observable<Investisseur>{
         return this.httpClient.get<Investisseur>(`${this.baseURL}/Investisseur/affichageInvestisseur/${id}`);
     }
+
 }

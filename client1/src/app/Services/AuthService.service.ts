@@ -16,7 +16,7 @@ export class AuthService {
 
     login(credentials: { email: string; password: string }): Observable<any> {
         const loginUrl = `${this.baseURL}/api/Account/login`; // Endpoint de connexion dans ton API
-    
+
         return this.httpClient.post<any>(loginUrl,credentials).pipe(
           map(response => {
             if (response && response.token) {
@@ -25,31 +25,32 @@ export class AuthService {
               console.log(jwtToken);
             }
             return response;
+
           }),
           catchError(error => {
             return of(error);
           })
         );
       }
-    
+
       logout(): void {
         localStorage.removeItem('JwtToken');
       }
-    
+
       getToken(): string {
         return JSON.parse(localStorage.getItem('JwtToken') ||'null' );
       }
-    
+
       isAuthenticated(): boolean {
         return this.getToken()!=null;
       }
 
-    
+
      /* hasRole(role: string): boolean {
         const currentUser = this.currentUser();
         return !!currentUser && currentUser.role === role;
       }
-    
+
       getHeaders(): HttpHeaders {
         const token = this.getToken();
         const headers = new HttpHeaders({
@@ -63,8 +64,8 @@ export class AuthService {
         });
         return headers;
       }*/
-      
-    
+
+
      currentUser(): user | null {
         if (this.getToken()) {
           const tokenPayload: any = jwtDecode(this.getToken());
@@ -83,20 +84,20 @@ export class AuthService {
       }
       currentUserRole(): string | null {
         const token = this.getToken();
-    
+
         if (token) {
           const tokenPayload: any = jwtDecode(token);
-    
+
           if (tokenPayload) {
             const role: string = tokenPayload['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'];
             return role;
           }
         }
-    
+
         return null;
       }
-    
-    
+
+
       autoLogout(dateExpiration: number): void {
         setTimeout(() => {
           this.logout();

@@ -26,16 +26,16 @@ export class ProfileComponent implements OnInit {
    this.role = 'Invest';
    this.InvesService.GetProfileInv(this.id).subscribe(data =>{
     this.investisseur=data;
-   
+
     console.log(data);
   }, error => console.log(error));
 
-   
-   
+
+
    } else {
     this.StartupService.GetProfileStartup(this.id).subscribe(data =>{
       this.startup=data;
-     
+
       console.log(data);
     }, error => console.log(error));
 
@@ -43,6 +43,16 @@ export class ProfileComponent implements OnInit {
 
 
  }
+
+  isModalOpen: boolean = false;
+
+  openForm() {
+    this.isModalOpen = true;
+  }
+
+  closeForm() {
+    this.isModalOpen = false;
+  }
 
 
 }

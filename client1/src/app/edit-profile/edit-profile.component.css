@@ -107,11 +107,17 @@
 
 /* Main */
 .main {
-  margin-top: 2%;
-  margin-left: 29%;
+  margin-top: -2%;
+margin-right: -70px;
+  margin-left: 70px;
   font-size: 28px;
   padding: 0 10px;
-  width: 58%;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .main h2 {
@@ -143,31 +149,6 @@
   right: 14%;
 }
 
-.buttons-container {
-  position: absolute;
-  top: 10px;
-  right: 20px;
-  display: flex;
-}
-
-.buttons-container button {
-  margin-right: -20px;
-  margin-top: -20px;
-  width: 20px;
-  height: 20px; /* Hauteur égale à la largeur pour former un cercle */
-  font-size: 0.9rem;
-  padding: 15px;
-  border: none;
-  border-radius: 50%; /* Utilisez 50% pour créer un cercle */
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  display: flex;
-  justify-content: center;
-  align-items: center;}
-.red-button{
-  background-color:red;
-}
 
 
 
@@ -249,4 +230,8 @@ button:hover {
 
 .show {
   display: block !important;
+}
+/* edit-profile-popup.component.css */
+.popup-container {
+
 }
