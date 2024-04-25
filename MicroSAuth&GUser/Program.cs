@@ -73,7 +73,7 @@ builder.Services.AddSwaggerGen(options =>
 });
 builder.Services.AddScoped<IUserAccount, AccountRepository>();
 
-
+builder.Services.AddScoped<IEmailService, EmailRepository>();
 
 
 
@@ -101,7 +101,6 @@ if (app.Environment.IsDevelopment())
 //    app.UseSwaggerUI();
 //}
 
-app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
 

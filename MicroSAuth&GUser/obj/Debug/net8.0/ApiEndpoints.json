@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "MicroSAuth_GUser.Controllers.AccountController",
+    "Method": "ForgetPassword",
+    "RelativePath": "api/Account/forget_password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroSAuth_GUser.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/Account/login",
     "HttpMethod": "POST",
