@@ -61,15 +61,10 @@
 
       <div class="buttons-container">
 
-        <button class="blue-button" (click)="openForm()" > <i class="bi bi-pencil-square"></i></button>
+        <button class="blue-button" (click)="openModal(modalTemplate)" > <i class="bi bi-pencil-square"></i></button>
         <button class="red-button"><i class="bi bi-trash-fill"></i></button>
       </div>
-      <div class="modal" *ngIf="isModalOpen" (click)="closeForm()">
-        <div class="modal-content" (click)="$event.stopPropagation()">
-          <app-edit-profile></app-edit-profile>
-        </div>
-      </div>
-      <div class="modal-background" (click)=" closeForm()"></div>
+
       <table *ngIf="role === 'Invest'; else startupDefenition" >
         <tbody>
         <tr>
@@ -153,14 +148,16 @@
       <div class="card-body2">
         <div class="buttons-container">
           <button class="green-button"> <i class="bi bi-calendar-x-fill"></i></button>
-          <button class="blue-button"> <i class="bi bi-pencil-square"></i></button>
+          <button (click)="openModalPoste(modalPosteTemplate)" class="blue-button"> <i class="bi bi-pencil-square"></i></button>
           <button class="red-button"><i class="bi bi-trash-fill"></i></button>
         </div>
         <div class="profil-img"><i class="bi bi-person-circle"></i></div>
 
         <div class="leading-2">
           <h5 class="font-bold text-black">Mellisa Bay</h5>
-          <span style="font-size: 14px;">3h ago</span>
+          <span class="custom-span">3h ago</span>
+          <h5 class="font-bold text-black" style="color:#120F4D; font-style: italic;text-align:center; ">Titre:new offre</h5>
+          <h6 class="font-bold ">Domaine: info</h6>
         </div>
         <div class="font-size-sm px-3 py-2 text-dark">
           <p class="smaller-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto consectetur consequuntur culpa delectus
@@ -171,7 +168,9 @@
             nesciunt perferendis, quo voluptas voluptatibus. Asperiores atque beatae culpa, ex expedita illo impedit molestiae
             nemo, nulla obcaecati odio placeat quam quas quod reiciendis repudiandae voluptas voluptates voluptatum.</p>
         </div>
-
+        <div class="post-image">
+          <img src="assets/startups.png" alt="Image du poste">
+        </div>
 
 
       </div>
@@ -187,7 +186,9 @@
 
       <div class="leading-2">
         <h5 class="font-bold text-black">Mellisa Bay</h5>
-        <span style="font-size: 14px;">3h ago</span>
+        <span class="custom-span">3h ago</span>
+        <h5 class="font-bold text-black" style="color:#120F4D; font-style: italic;">Titre</h5>
+        <h6 class="font-bold ">Info</h6>
       </div>
       <div class="font-size-sm px-3 py-2 text-dark">
         <p class="smaller-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto consectetur consequuntur culpa delectus
@@ -198,6 +199,9 @@
           nesciunt perferendis, quo voluptas voluptatibus. Asperiores atque beatae culpa, ex expedita illo impedit molestiae
           nemo, nulla obcaecati odio placeat quam quas quod reiciendis repudiandae voluptas voluptates voluptatum.</p>
       </div>
+      <div class="post-image">
+        <img src="assets/startups.png" alt="Image du poste">
+      </div>
 
 
 
@@ -206,4 +210,9 @@
   </div>
 </div>
 
-
+<ng-template #modalTemplate>
+  <app-edit-profile></app-edit-profile>
+</ng-template>
+<ng-template #modalPosteTemplate>
+  <app-edit-poste></app-edit-poste>
+</ng-template>

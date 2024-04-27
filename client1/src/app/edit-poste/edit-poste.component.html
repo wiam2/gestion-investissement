@@ -1,0 +1,33 @@
+<div class="modal" >
+    <div class="modal-content">
+        <div class="popup-container " >
+            <div class="main" >
+        <div class="card">
+            <div class="card-body2">
+                <div class="buttons-container">
+
+                    <button (click)="close()" class="red-button"><i class="bi bi-x"></i></button>
+                </div>
+                <div class="profil-img"><i class="bi bi-person-circle"></i></div>
+
+                <div class="leading-2">
+                    <h5 class="font-bold text-black">Mellisa Bay</h5>
+                    <span class="custom-span">3h ago</span>
+                    <h5 class="font-bold text-black" style="color:#120F4D; font-style: italic; text-align:center;">Titre:<input></h5>
+                    <h6 class="font-bold ">Domaine:<input></h6>
+                </div>
+                <div class="font-size-sm px-3 py-2 text-dark">
+                    <p class="smaller-text"><textarea cols="60" rows="4"></textarea></p>
+                </div>
+                <div class="post-image">
+                    <input type="file" accept="image/*" id="image" name="image" style="display:none;">
+                    <img src="assets/startups.png" alt="Image du poste" onclick="document.getElementById('image').click();">
+                </div>
+                <button (click)="submit()" type="submit">Enregistrer les modifications</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>

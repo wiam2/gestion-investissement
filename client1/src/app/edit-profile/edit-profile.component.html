@@ -1,10 +1,16 @@
+<div class="modal" >
+  <div class="modal-content">
 <div class="popup-container " >
 <div class="main" >
 
 <div class="card">
   <div class="card-body">
+    <div class="buttons-container">
 
-    <table >
+
+      <button (click)="close()" class="red-button"><i class="bi bi-x"></i></button>
+    </div>
+    <table  *ngIf="role === 'Invest'; else startupDefenition" >
       <tbody>
       <tr>
         <td>Nom</td>
@@ -49,7 +55,7 @@
       </tr>
       <tr>
 
-        <button type="submit">Enregistrer les modifications</button>
+        <button (click)="submit()" type="submit">Enregistrer les modifications</button>
 
       </tr>
       </tbody>
@@ -60,42 +66,44 @@
         <tr>
           <td>Le nom officiel</td>
           <td>:</td>
-          <td>El Azouan</td>
+          <td><input value="{{startup.nomstr}}"  ></td>
         </tr>
-        <tr>
-          <td>Date de creation</td>
-          <td>:</td>
-          <td>28/05/2023</td>
-        </tr>
+
         <tr>
           <td>Fondateur</td>
           <td>:</td>
-          <td>aya eljoj</td>
+          <td><input></td>
         </tr>
-        <tr>
-          <td>Domain d'activité</td>
-          <td>:</td>
-          <td>info</td>
-        </tr>
+
         <tr>
           <td>Email</td>
           <td>:</td>
-          <td>aya@gmail.com</td>
+          <td><input></td>
+        </tr>
+        <tr>
+          <td>Mot de passe</td>
+          <td>:</td>
+          <td><input></td>
+        </tr>
+        <tr>
+          <td>Comfirmer Mot de passe</td>
+          <td>:</td>
+          <td><input></td>
         </tr>
         <tr>
           <td>Site Web</td>
           <td>:</td>
-          <td>ayaihgio)i.com</td>
+          <td><input></td>
         </tr>
         <tr>
           <td>Ville</td>
           <td>:</td>
-          <td>tanger</td>
+          <td><input></td>
         </tr>
         <tr>
           <td>Adresse</td>
           <td>:</td>
-          <td>bbbbbb</td>
+          <td><input></td>
         </tr>
 
         </tbody>
@@ -106,3 +114,6 @@
 </div>
 </div>
 </div>
+  </div>
+</div>
+<div class="modal-background" (click)=" close()"></div>

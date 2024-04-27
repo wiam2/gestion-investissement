@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,TemplateRef} from '@angular/core';
 import { AuthService } from '../Services/AuthService.service';
 import { Router } from '@angular/router';
 import { ActivatedRoute } from '@angular/router';
@@ -6,6 +6,8 @@ import { Investisseur } from '../models/Investisseur.model';
 import { Startup } from '../models/Startup.model';
 import { InvestisseurService } from '../Services/InvestisseurService.service';
 import { StartupService } from '../Services/StartupService.service';
+import {modalService} from "../Services/modalService";
+import {EditPosteModalService} from "../Services/EditPosteModalService";
 
 @Component({
   selector: 'app-profile',
@@ -17,7 +19,8 @@ export class ProfileComponent implements OnInit {
   id : string = '';
   investisseur : Investisseur = new Investisseur();
   startup : Startup = new Startup ();
-  constructor(private authservice:AuthService ,private InvesService: InvestisseurService, private StartupService: StartupService,private router:Router ,  private route: ActivatedRoute) { }
+  constructor(private authservice:AuthService ,private InvesService: InvestisseurService, private StartupService: StartupService,private router:Router ,  private route: ActivatedRoute,private modalService:modalService,
+              private modalPosteService:EditPosteModalService) { }
 
  ngOnInit(): void {
   this.id = this.route.snapshot.params['id'];
@@ -44,15 +47,23 @@ export class ProfileComponent implements OnInit {
 
  }
 
-  isModalOpen: boolean = false;
 
-  openForm() {
-    this.isModalOpen = true;
-  }
 
-  closeForm() {
-    this.isModalOpen = false;
+  openModal(modalTemplate:TemplateRef<any>) {
+    this.modalService
+      .open(modalTemplate)
+      .subscribe((action)=>{
+        console.log('modalAction',action);
+      });
   }
+    openModalPoste(modalPosteTemplate:TemplateRef<any>) {
+        this.modalPosteService
+            .open(modalPosteTemplate)
+            .subscribe((action)=>{
+                console.log('modalAction',action);
+            });
+    }
+
 
 
 }

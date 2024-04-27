@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from "@angular/router";
@@ -13,6 +13,8 @@ import { ProfileComponent } from './profile/profile.component';
 import { ChatboxComponent } from './chatbox/chatbox.component';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
 import { HttpClientModule } from '@angular/common/http';
+import { DeleteProfileComponent } from './delete-profile/delete-profile.component';
+import { EditPosteComponent } from './edit-poste/edit-poste.component';
 
 @NgModule({
   declarations: [
@@ -25,18 +27,20 @@ import { HttpClientModule } from '@angular/common/http';
      MainPageComponent,
      ProfileComponent,
      ChatboxComponent,
-     EditProfileComponent
+     EditProfileComponent,
+     DeleteProfileComponent,
+     EditPosteComponent
 
   ],
   imports: [
-    
+
     BrowserModule,
     AppRoutingModule,
     RouterModule,
     FormsModule,
     HttpClientModule,
-  
-   
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]

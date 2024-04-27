@@ -9,13 +9,15 @@ import {ProfileComponent} from "./profile/profile.component";
 import {ChatboxComponent} from "./chatbox/chatbox.component";
 import {EditProfileComponent } from "./edit-profile/edit-profile.component"
 import { PageGuard } from './guards/pageguard.guard';
+import {DeleteProfileComponent} from "./delete-profile/delete-profile.component";
+import {EditPosteComponent} from "./edit-poste/edit-poste.component";
 const routes: Routes = [
   {
     path:'',
     component:HomeComponent
   },
   {
-    path:'page', 
+    path:'page',
     component:MainPageComponent ,canActivate: [PageGuard]
   },
   {
@@ -41,6 +43,14 @@ const routes: Routes = [
   {
     path:'editProfile',
     component:EditProfileComponent
+  },
+  {
+    path:'deleteProfile',
+    component:DeleteProfileComponent
+  },
+  {
+    path:'editPoste',
+    component:EditPosteComponent
   },
 ];
 
