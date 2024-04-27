@@ -172,26 +172,27 @@ textarea:focus{
     text-align: center;
 }
 .button-container :hover{
-    background-color:#ff8896;
-}
-.button :hover{
-    color:black;
+    background-color:#90ee90;
 }
 
- .gray-button {
+
+
+.gray-button {
     background-color: #aaaaaa;
 }
 
- .red-button {
-    background-color: red;
+
+.green-button {
+    background-color: green;
 }
-.bi-exclamation-triangle-fill {
+
+.bi.bi-check-square-fill {
     font-size: 5rem; /* Taille de police agrandie */
     display: flex; /* Centrer l'icône */
     margin: 0 auto; /* Centrer l'icône horizontalement */
-    color: red; /* Couleur rouge */
+    color: #28a745; /* Couleur rouge */
     margin-right: 300px; /* Espacement à droite */
-    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px green;
 }
 
 p {
@@ -203,7 +204,7 @@ p {
     margin-bottom: 10px;
 }
 h5:hover{
-    color: darkred;
+    color: green;
     text-shadow: 2px 2px 4px #888888;
 }
 .centered-text {

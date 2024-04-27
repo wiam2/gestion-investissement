@@ -15,6 +15,8 @@ import { EditProfileComponent } from './edit-profile/edit-profile.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DeleteProfileComponent } from './delete-profile/delete-profile.component';
 import { EditPosteComponent } from './edit-poste/edit-poste.component';
+import { DeleteposteComponent } from './deleteposte/deleteposte.component';
+import { ValidatePosteComponent } from './validate-poste/validate-poste.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { EditPosteComponent } from './edit-poste/edit-poste.component';
      ChatboxComponent,
      EditProfileComponent,
      DeleteProfileComponent,
-     EditPosteComponent
+     EditPosteComponent,
+     DeleteposteComponent,
+     ValidatePosteComponent
 
   ],
   imports: [

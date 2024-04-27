@@ -52,6 +52,11 @@ const routes: Routes = [
     path:'editPoste',
     component:EditPosteComponent
   },
+
+  {
+    path:'deleteProfile',
+    component:DeleteProfileComponent
+  },
 ];
 
 

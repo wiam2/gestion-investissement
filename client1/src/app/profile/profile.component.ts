@@ -8,6 +8,9 @@ import { InvestisseurService } from '../Services/InvestisseurService.service';
 import { StartupService } from '../Services/StartupService.service';
 import {modalService} from "../Services/modalService";
 import {EditPosteModalService} from "../Services/EditPosteModalService";
+import {DeleteModalService} from "../Services/DeleteModalService";
+import {DeletePosteModalService} from "../Services/DeletePosteModalService";
+import {ValidateModalSevice} from "../Services/ValidateModalSevice";
 
 @Component({
   selector: 'app-profile',
@@ -20,7 +23,10 @@ export class ProfileComponent implements OnInit {
   investisseur : Investisseur = new Investisseur();
   startup : Startup = new Startup ();
   constructor(private authservice:AuthService ,private InvesService: InvestisseurService, private StartupService: StartupService,private router:Router ,  private route: ActivatedRoute,private modalService:modalService,
-              private modalPosteService:EditPosteModalService) { }
+              private modalPosteService:EditPosteModalService,
+  private modalDeleteProfile:DeleteModalService,
+              private DeletemodalPosteService:DeletePosteModalService,
+              private ValidatePosteService:ValidateModalSevice) { }
 
  ngOnInit(): void {
   this.id = this.route.snapshot.params['id'];
@@ -63,7 +69,26 @@ export class ProfileComponent implements OnInit {
                 console.log('modalAction',action);
             });
     }
-
-
+    openDeleteModal(modalDeleteTemplate:TemplateRef<any>) {
+        this.modalDeleteProfile
+            .open(modalDeleteTemplate)
+            .subscribe((action)=>{
+                console.log('modalAction',action);
+            });
+    }
+    openModalPosteDelete(modalPosteTemplate:TemplateRef<any>) {
+        this.DeletemodalPosteService
+            .open(modalPosteTemplate)
+            .subscribe((action)=>{
+                console.log('modalAction',action);
+            });
+    }
+    openModalPosteValidate(modalPosteTemplate:TemplateRef<any>) {
+        this.ValidatePosteService
+            .open(modalPosteTemplate)
+            .subscribe((action)=>{
+                console.log('modalAction',action);
+            });
+    }
 
 }
