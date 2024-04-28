@@ -154,8 +154,11 @@
 }
 
 .post-image img {
-    max-width: 60%; /* Pour s'assurer que l'image reste dans le conteneur */
-    height: auto; /* Pour préserver le ratio hauteur/largeur */
+  max-width: 50%; /* Pour s'assurer que l'image reste dans le conteneur */
+  height: auto;
+  /* Pour préserver le ratio hauteur/largeur */
+  margin-left: auto; /* Marge automatique à gauche */
+  margin-right: auto;
 }
 input,textarea{
     border: none;
