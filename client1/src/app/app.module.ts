@@ -17,6 +17,7 @@ import { DeleteProfileComponent } from './delete-profile/delete-profile.componen
 import { EditPosteComponent } from './edit-poste/edit-poste.component';
 import { DeleteposteComponent } from './deleteposte/deleteposte.component';
 import { ValidatePosteComponent } from './validate-poste/validate-poste.component';
+import { NotifiacationListComponent } from './notifiacation-list/notifiacation-list.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ValidatePosteComponent } from './validate-poste/validate-poste.componen
      DeleteProfileComponent,
      EditPosteComponent,
      DeleteposteComponent,
-     ValidatePosteComponent
+     ValidatePosteComponent,
+     NotifiacationListComponent
 
   ],
   imports: [

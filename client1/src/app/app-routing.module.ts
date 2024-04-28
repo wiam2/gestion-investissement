@@ -11,6 +11,7 @@ import {EditProfileComponent } from "./edit-profile/edit-profile.component"
 import { PageGuard } from './guards/pageguard.guard';
 import {DeleteProfileComponent} from "./delete-profile/delete-profile.component";
 import {EditPosteComponent} from "./edit-poste/edit-poste.component";
+import {NotifiacationListComponent} from "./notifiacation-list/notifiacation-list.component";
 const routes: Routes = [
   {
     path:'',
@@ -54,8 +55,8 @@ const routes: Routes = [
   },
 
   {
-    path:'deleteProfile',
-    component:DeleteProfileComponent
+    path:'notif',
+    component:NotifiacationListComponent
   },
 ];
 

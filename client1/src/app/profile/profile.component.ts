@@ -11,6 +11,7 @@ import {EditPosteModalService} from "../Services/EditPosteModalService";
 import {DeleteModalService} from "../Services/DeleteModalService";
 import {DeletePosteModalService} from "../Services/DeletePosteModalService";
 import {ValidateModalSevice} from "../Services/ValidateModalSevice";
+import {NotifModalService} from "../Services/NotifModalService";
 
 @Component({
   selector: 'app-profile',
@@ -26,7 +27,8 @@ export class ProfileComponent implements OnInit {
               private modalPosteService:EditPosteModalService,
   private modalDeleteProfile:DeleteModalService,
               private DeletemodalPosteService:DeletePosteModalService,
-              private ValidatePosteService:ValidateModalSevice) { }
+              private ValidatePosteService:ValidateModalSevice,
+              private NotifService:NotifModalService) { }
 
  ngOnInit(): void {
   this.id = this.route.snapshot.params['id'];
@@ -90,5 +92,7 @@ export class ProfileComponent implements OnInit {
                 console.log('modalAction',action);
             });
     }
+
+
 
 }

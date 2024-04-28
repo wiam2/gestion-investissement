@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import {Component, TemplateRef} from '@angular/core';
 import {Router} from "@angular/router";
 import { AuthService } from '../Services/AuthService.service';
+import {NotifModalService} from "../Services/NotifModalService";
 
 @Component({
   selector: 'app-navbar',
@@ -9,7 +10,7 @@ import { AuthService } from '../Services/AuthService.service';
 })
 export class NavbarComponent {
    id : string |null ='' ;
-  constructor(private authservice :AuthService,private router: Router) { }
+  constructor(private authservice :AuthService,private router: Router,private NotifService:NotifModalService) { }
   logout(){
     this.authservice.logout();
     this.router.navigate(['./login']);
@@ -19,14 +20,22 @@ export class NavbarComponent {
     if (currentUser) {
       this.id = currentUser.id;
       console.log(this.id);
-    
+
       this.router.navigate(['./profile', this.id]);
-    } 
-      
+    }
+
   }
   mychat(){
     this.router.navigate(['./chat']);
 
+  }
+
+  openModalNotif(modalPosteTemplate:TemplateRef<any>) {
+    this.NotifService
+      .open(modalPosteTemplate)
+      .subscribe((action)=>{
+        console.log('modalAction',action);
+      });
   }
 
 }

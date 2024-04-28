@@ -186,7 +186,7 @@ textarea:focus{
     background-color: green;
 }
 
-.bi.bi-check-square-fill {
+.bi.bi-check2-square {
     font-size: 5rem; /* Taille de police agrandie */
     display: flex; /* Centrer l'icône */
     margin: 0 auto; /* Centrer l'icône horizontalement */
