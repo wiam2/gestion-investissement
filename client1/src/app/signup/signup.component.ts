@@ -14,7 +14,12 @@ import { StartupService } from '../Services/StartupService.service';
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent implements OnInit {
- 
+  parentHeight: string = '150vh'; // Hauteur par défaut
+
+  onHeightChange(event: any) {
+    this.parentHeight = 'auto';
+  }
+
   choix: string|null = null;
   User : user = new user();
   Investisseur: Investisseur  = new Investisseur();
@@ -23,7 +28,7 @@ export class SignupComponent implements OnInit {
 
   constructor(private invesstisseurService: InvestisseurService, private startupservice:StartupService, private router: Router) {
   }
-  
+
   ngOnInit(): void {
 
     this.Investisseur.email = this.User.email;
@@ -73,6 +78,8 @@ export class SignupComponent implements OnInit {
     this.CreateStarup();
 
   }
- 
 
+  redirectToHome() {
+    this.router.navigate(['/']);
+  }
 }

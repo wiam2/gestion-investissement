@@ -6,8 +6,8 @@
       </div>
       <div class="sub2">
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">about</a></li>
+          <li><a href="" (click)="redirectToHome()"> Accueil</a></li>
+          <li><a href="">À propos</a></li>
         </ul>
       </div>
     </div>
@@ -56,8 +56,8 @@
 
       </div>
       <div class="gender_details">
-        <input type="radio" name="role" id="Invest" (change)="choix='Invest'">
-        <input type="radio" name="role" id="startup" (change)="choix='startup'" >
+        <input type="radio" name="role" id="Invest" (change)="choix='Invest'" (change)="onHeightChange($event)">
+        <input type="radio" name="role" id="startup" (change)="choix='startup'" (change)="onHeightChange($event)">
         <span class="gender_title"> Êtes-vous??</span>
         <div class="category">
           <label for="Invest">
@@ -72,13 +72,8 @@
       </div>
 
     </form>
-  </div>
-</div>
-
-<div class="parent"  *ngIf="choix === 'Invest'">
-  <div class="container">
-    <div class="title">Details</div>
-    <form  action="#" >
+    <div class="title" *ngIf="choix === 'Invest'">Details</div>
+    <form *ngIf="choix === 'Invest'" action="#" >
       <div class="user_details">
         <div class="input_pox">
           <span class="datails">Nom</span>
@@ -109,15 +104,8 @@
         </div>
       </div>
     </form>
-
-
-  </div>
-</div>
-
-<div class="parent1"  *ngIf="choix === 'startup'">
-  <div class="container">
-    <div class="title">Details</div>
-    <form  *ngIf="choix === 'startup'" action="#">
+    <div class="title" *ngIf="choix === 'startup'">Details</div>
+    <form   *ngIf="choix === 'startup'" action="#">
       <div class="user_details">
         <div class="input_pox">
           <span class="datails">Nom</span>
@@ -170,5 +158,12 @@
         </div>
       </div>
     </form>
+
   </div>
 </div>
+
+
+
+
+
+

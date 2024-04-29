@@ -10,17 +10,19 @@
 .parent{
   margin: -10px;
   display: flex;
-  height: 100vh;
   justify-content: center;
   align-items: center;
   background: linear-gradient(123deg,#120F4D,#95a2ee);
+
 }
 .container{
+  margin-top: 150px;
   max-width: 700px;
   width: 100%;
   background: #fff;
   padding: 25px 30px;
   border-radius: 5px;
+  margin-bottom: 30px;
 }
 .container  .title{
   font-size: 25px;
@@ -171,13 +173,12 @@ form .button :hover {
     max-height: 300px;
     overflow: scroll;
   }
-  .user_details::-webkit-scrollber{
-    width: 0;
-  }
+
+
 }
 .form-control {
   position: relative;
-  margin-bottom: 3 0px;
+
 }
 
 .form-control i {
@@ -276,11 +277,12 @@ form .user_details1 .input_pox{
 }
 
 .sub2 {
-  margin-bottom: 20px;
-  margin-top: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 30px 90px 20px 0; /* Marges ajustées pour l'espacement */
   font-size: 20px;
   font-weight: bold;
-  margin-right: 20px;
 }
 
 ul {
@@ -288,12 +290,7 @@ ul {
   flex-direction: row;
   list-style-type: none;
   justify-content: flex-end;
-  margin-top: -250px;
-  margin-right: -800px;
-
-
-
-
+  align-items: center;
 
 }
 
@@ -313,3 +310,4 @@ a:hover {
   color: #120f4d;
   text-decoration: underline;
 }
+
