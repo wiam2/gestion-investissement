@@ -91,7 +91,20 @@ body {
   border: 2px solid    #8C52FF;
 ;
 }
+.forgot-pass {
+  margin: -20px 0 10px;
+  text-align: center;
+}
+.forgot-pass a {
+  font-size: .85em;
+  color:#5CE1E6;
+  text-decoration: none;
+  font-weight: 400;
 
+}
+.forgot-pass a:hover {
+  text-decoration: underline;
+}
 
 
 
