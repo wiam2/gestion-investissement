@@ -1,35 +1,42 @@
+<img src="assets/logo.png" alt="" class="logo">
+<div class="main-container">
+  <div class="blur-circle1">
 
-<div class="parent">
-<div class="contianer">
-    <div class="header">
+  </div>
+  <div class="blur-circle2">
+
+  </div>
+  <!-- Start Landing Page -->
+  <div class="landing-page">
+    <header>
+      <div class="container">
         <div class="sub1">
-            <img src="assets/logo.png" alt="" class="logo">
-        </div>
-        <div class="sub2">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">about</a></li>
+          <img src="assets/logo.png" alt="" class="logo">
 
-            </ul>
+
+        <a href="#" class="logo2"><b>InvestLink</b></a>
         </div>
-        <div>
-            <button class="butt1" (click)=" redirectToLogin()">Se connecter</button>
-            <button class="butt2" (click)="redirectToSignup()">S'inscrire</button>
+        <ul class="links">
+          <li>accueil</li>
+          <li>À propos</li>
+
+          <li (click)="redirectToLogin()">Get Started</li>
+        </ul>
+      </div>
+    </header>
+    <div class="content">
+      <div class="container">
+        <div class="info">
+          <h1>Recherchez-vous de partenariat ?</h1>
+          <p>InvestLink Où les idées prennent vie et  les investissements prospèrent.<br>
+            faciliter les rencontres entre startups et investisseurs afin de catalyser leur croissance grâce à un soutien financier efficace.</p>
+          <button (click)="redirectToSignup()">S'inscrire</button>
         </div>
+        <div class="image">
+          <img class="main-image" src="https://cdni.iconscout.com/illustration/premium/thumb/businessman-working-using-vr-tech-3840669-3202986.png?f=webp">
+        </div>
+      </div>
     </div>
-
-    <div class="section">
-        <div class="sub3">
-            <h1 class="heading1">InvestLink</h1>
-            <p class="heading2">Où les idées prennent vie et  les investissements prospèrent. </p>
-            <p class="heading22">
-                Nos objectifs sont clairs et ambitieux : faciliter les rencontres entre startups et investisseurs afin de catalyser leur croissance grâce à un soutien financier efficace. Nous visons à maximiser les opportunités d'investissement pour les investisseurs tout en construisant une communauté dynamique qui favorise la collaboration et le succès mutuel</p>
-            <button class="butt1 butt3" (click)=" redirectToLogin()">Start Now</button>
-        </div>
-        <div class="sub4">
-            <img src="assets/home.png" alt="" class="image2">
-
-        </div>
-    </div>
-</div>
+  </div>
+  <!-- End Landing Page -->
 </div>
