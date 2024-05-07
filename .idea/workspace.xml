@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef8de1d5-0b6b-44d4-929e-d156ba3f543f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/MicroS-Auth-GUser/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MicroS-Auth-GUser/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/MicroS-Auth-GUser/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MicroS-Auth-GUser/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/MicroS-Auth-GUser/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MicroS-Auth-GUser/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/app/Services/InvestisseurService.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/app/Services/InvestisseurService.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/app/Services/modalService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/app/Services/modalService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client1/src/app/edit-profile/edit-profile.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client1/src/app/edit-profile/edit-profile.component.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2g2ro2LZBGgO4xvQxufIhSBne6J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "videocall",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef8de1d5-0b6b-44d4-929e-d156ba3f543f" name="Changes" comment="" />
+      <created>1714906688411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714906688411</updated>
+      <workItem from="1714906696298" duration="20000" />
+    </task>
+    <servers />
+  </component>
+</project>

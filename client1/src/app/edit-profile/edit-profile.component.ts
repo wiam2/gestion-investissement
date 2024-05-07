@@ -22,9 +22,10 @@ export class EditProfileComponent implements OnInit {
  @Output() closeEvent=new EventEmitter();
  @Output() submitEvent=new EventEmitter();
 constructor(private elementRef:ElementRef,private authservice:AuthService ,private InvesService: InvestisseurService, private StartupService:StartupService,private router:Router ,  private route: ActivatedRoute,private modalService:modalService) {
+
 }
     ngOnInit(): void {
-        this.id = this.route.snapshot.params['id'];
+        this.id ='100a7513-b1b4-4dbb-bacf-d9791ec415ae';
         if(this.authservice.currentUserRole()==="RInvestisseur"){
             console.log(this.authservice.currentUserRole())
             this.role = 'Invest';
@@ -34,13 +35,11 @@ constructor(private elementRef:ElementRef,private authservice:AuthService ,priva
                 console.log(data);
             }, error => console.log(error));
 
-
-
         } else {
             this.StartupService.GetProfileStartup(this.id).subscribe(data =>{
                 this.startup=data;
+console.log(this.startup);
 
-                console.log(data);
             }, error => console.log(error));
 
         }

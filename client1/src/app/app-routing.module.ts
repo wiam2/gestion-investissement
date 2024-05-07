@@ -41,10 +41,7 @@ const routes: Routes = [
     path:'chat',
     component:ChatboxComponent
   },
-  {
-    path:'editProfile',
-    component:EditProfileComponent
-  },
+
   {
     path:'deleteProfile',
     component:DeleteProfileComponent

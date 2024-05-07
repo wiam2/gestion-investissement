@@ -15,43 +15,43 @@
       <tr>
         <td>Nom</td>
         <td>:</td>
-        <td><input></td>
+        <td>{{this.investisseur.nom}}</td>
       </tr>
       <tr>
         <td>Prenom</td>
         <td>:</td>
-        <td><input></td>
+        <td>{{investisseur.prenom}}</td>
       </tr>
       <tr>
         <td>CIN</td>
         <td>:</td>
-        <td><input></td>
+        <td><input value="{{investisseur.cin}}"></td>
       </tr>
       <tr>
         <td>Email</td>
         <td>:</td>
-        <td><input></td>
+        <td><input value="{{investisseur.email}}"></td>
       </tr>
 
       <tr>
         <td>Telephone</td>
         <td>:</td>
-        <td><input></td>
+        <td><input value="{{investisseur.tel}}"></td>
       </tr>
       <tr>
         <td>Mot de passe</td>
         <td>:</td>
-        <td><input></td>
+        <td><input  placeholder="  Nouveau Mot de passe?" ></td>
       </tr>
       <tr>
         <td>Comfirmer Mot de passe</td>
         <td>:</td>
-        <td><input></td>
+        <td><input placeholder="  Comfirmer"></td>
       </tr>
       <tr>
         <td style="vertical-align: top;">Description</td>
         <td style="vertical-align: top;">:</td>
-        <td><textarea cols="40" rows="4"></textarea></td>
+        <td><textarea cols="40" rows="4" value="{{investisseur.profilDescription}}"></textarea></td>
       </tr>
       <tr>
 
@@ -66,19 +66,19 @@
         <tr>
           <td>Le nom officiel</td>
           <td>:</td>
-          <td><input value="{{startup.nomstr}}"  ></td>
+          <td>{{startup.dateInscription}}</td>
         </tr>
 
         <tr>
           <td>Fondateur</td>
           <td>:</td>
-          <td><input></td>
+          <td>{{startup.nomstr}}</td>
         </tr>
 
         <tr>
           <td>Email</td>
           <td>:</td>
-          <td><input></td>
+          <td><input value="{{startup.email}}"></td>
         </tr>
         <tr>
           <td>Mot de passe</td>
@@ -93,19 +93,23 @@
         <tr>
           <td>Site Web</td>
           <td>:</td>
-          <td><input></td>
+          <td><input value="{{startup.siteweb}}"></td>
         </tr>
         <tr>
           <td>Ville</td>
           <td>:</td>
-          <td><input></td>
+          <td><input value="{{startup.ville}}"></td>
         </tr>
         <tr>
           <td>Adresse</td>
           <td>:</td>
-          <td><input></td>
+          <td><input value="{{startup.lieu}}"></td>
         </tr>
+        <tr>
 
+          <button (click)="submit()" type="submit">Enregistrer les modifications</button>
+
+        </tr>
         </tbody>
       </table>
 

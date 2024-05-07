@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\hp\\desktop\\new folder\\gestion-investissement\\microsauth\u0026guser\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\hp\\desktop\\new folder\\gestion-investissement\\microsauth\u0026guser\\controllers\\invesstisseurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\controllers\\invesstisseurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\microsauth\u0026guser\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
@@ -85,10 +89,6 @@
       "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\controllers\\startupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\microsauth\u0026guser\\controllers\\invesstisseurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\controllers\\invesstisseurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\microsauth\u0026guser\\controllers\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\controllers\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -128,19 +128,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20240426124521_migration22.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:45:21.997Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\WeatherForecast.cs",
@@ -152,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MicroSAuth\u0026GUser.http",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\MicroSAuth\u0026GUser.http",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\MicroSAuth\u0026GUser.http",
@@ -164,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\appsettings.json",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\appsettings.json",
@@ -172,12 +160,36 @@
               "RelativeToolTip": "MicroSAuth\u0026GUser\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-27T17:31:40.606Z",
+              "WhenOpened": "2024-02-27T17:31:40.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InvesstisseurController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\InvesstisseurController.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\InvesstisseurController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\InvesstisseurController.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\Controllers\\InvesstisseurController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAcwDYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T21:21:28.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "20240426124521_migration22.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T12:45:21.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "20240422215135_lastTry.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Project\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215135_lastTry.cs",
               "RelativeDocumentMoniker": "..\\..\\Project\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215135_lastTry.cs",
@@ -189,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "20240425145827_auth.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240425145827_auth.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Migrations\\20240425145827_auth.cs",
@@ -201,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\I511\\source\\repos\\MicroServiceMessagerie\\appsettings.json",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\I511\\source\\repos\\MicroServiceMessagerie\\appsettings.json",
@@ -213,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "20240422215308_LastTry.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215308_LastTry.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Migrations\\20240422215308_LastTry.cs",
@@ -225,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "StartupController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\StartupController.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\StartupController.cs",
@@ -249,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Repositories\\AccountRepository.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Repositories\\AccountRepository.cs",
@@ -261,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\LoginDTO.cs",
@@ -273,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "UserSession.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\UserSession.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\UserSession.cs",
@@ -285,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "StartupDTO.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\StartupDTO.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\StartupDTO.cs",
@@ -297,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ApplicationInvestisseur.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Data\\ApplicationInvestisseur.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Data\\ApplicationInvestisseur.cs",
@@ -309,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Properties\\launchSettings.json",
@@ -333,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "InvestisseurDTO.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\InvestisseurDTO.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\InvestisseurDTO.cs",
@@ -345,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\UserDTO.cs",
@@ -369,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\AccountController.cs",
@@ -393,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Program.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Program.cs",
@@ -405,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Data\\ApplicationUser.cs",
@@ -441,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ApplicationStartup.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Data\\ApplicationStartup.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Data\\ApplicationStartup.cs",
@@ -450,18 +462,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T22:22:45.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "InvesstisseurController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\InvesstisseurController.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\InvesstisseurController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\New folder\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\InvesstisseurController.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\Controllers\\InvesstisseurController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwAwAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T21:21:28.109Z"
             },
             {
               "$type": "Document",
