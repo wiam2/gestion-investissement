@@ -48,30 +48,56 @@
   <div class="right-section">
     <h3>Prêt à faire équipe et à conquérir de nouveaux sommets ensemble avec ce poste ?"</h3>
     <div class="poste-container">
-      <form class="form">
+      <form class="form" *ngIf="role === 'Invest'; else startupDefenition">
         <div class="form-control">
-          <input type="text" placeholder="Domain" id="domain" required>
+          <input type="text" placeholder="Domain" id="domain" [(ngModel)]="posteInv.secteur" name="domain" required>
         </div>
         <div class="form-control">
-          <input type="text" placeholder="Titre" id="titre" required>
+          <input type="text" placeholder="Titre" id="titre" [(ngModel)]="posteInv.titre" name="titre" required>
         </div>
         <div class="form-control">
-          <textarea placeholder="Description" id="description" required></textarea>
+          <textarea placeholder="Description" id="description" [(ngModel)]="posteInv.description" name="description" required></textarea>
         </div>
         <div class="form-control">
-        <input type="file" accept="image/*" id="image" name="image" style="display:none;">
+        <input type="file" accept="image/*" id="image" name="image" (change)="onFileSelected($event)" style="display:none;">
           <i class="bi bi-images "></i>
-        <input placeholder="Sélectionner une image" onclick="document.getElementById('image').click();">
+        <input placeholder="Sélectionner une image"  onclick="document.getElementById('image').click();">
         </div>
         <div class="button-container">
           <div class="button violet-button">
-            <input type="submit" value="Poster">
+            <input type="submit" (click)="submit()" value="Poster">
           </div>
           <div class="button red-button">
-            <input type="submit" value="Annuler">
+            <input  type="submit" value="Annuler">
           </div>
         </div>
       </form>
+      <ng-template #startupDefenition>
+      <form class="form" >
+        <div class="form-control">
+          <input type="text" placeholder="Domain" id="domain" [(ngModel)]="posteStar.secteur" name="domain" required>
+        </div>
+        <div class="form-control">
+          <input type="text" placeholder="Titre" id="titre" [(ngModel)]="posteStar.titre" name="titre" required>
+        </div>
+        <div class="form-control">
+          <textarea placeholder="Description" id="description" [(ngModel)]="posteStar.description" name="description" required></textarea>
+        </div>
+        <div class="form-control">
+        <input type="file" accept="image/*" id="image" name="image"  style="display:none;">
+          <i class="bi bi-images "></i>
+        <input placeholder="Sélectionner une image"  onclick="document.getElementById('image').click();">
+        </div>
+        <div class="button-container">
+          <div class="button violet-button">
+            <input type="submit" (click)="valider()" value="Poster">
+          </div>
+          <div class="button red-button">
+            <input  type="submit" value="Annuler">
+          </div>
+        </div>
+      </form>
+    </ng-template>
     </div>
   </div>
 

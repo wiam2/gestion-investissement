@@ -78,9 +78,9 @@ export class ProfileComponent implements OnInit {
                 console.log('modalAction',action);
             });
     }
-    openModalPosteDelete(modalPosteTemplate:TemplateRef<any>) {
+    openModalPosteDelete(modalPosteTemplate:TemplateRef<any>,idPoste:number) {
         this.DeletemodalPosteService
-            .open(modalPosteTemplate)
+            .open(modalPosteTemplate,idPoste)
             .subscribe((action)=>{
                 console.log('modalAction',action);
             });

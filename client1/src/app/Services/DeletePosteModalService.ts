@@ -15,12 +15,14 @@ export class DeletePosteModalService{
                 @Inject(DOCUMENT) private document:Document
     ) {
     }
-    open(content :TemplateRef<any>){
+    open(content :TemplateRef<any>,id:number){
         const modalComponentFactory=this.resolver.resolveComponentFactory(DeleteposteComponent)
         const contentViewRef=content.createEmbeddedView(null)
         const modalComponent = modalComponentFactory.create(this.injector,[
             contentViewRef.rootNodes,
         ]);
+        modalComponent.instance.idPoste=id;
+        console.log(id);
         modalComponent.instance.closeEvent.subscribe(()=>
             this.closeModal());
         modalComponent.instance.submitEvent.subscribe(()=>
@@ -34,7 +36,9 @@ export class DeletePosteModalService{
         this.modalNotifier?.complete();
     }
     submitModal(){
+        
         this.modalNotifier?.next('comfirm');
+        console.log("gkkkk");
         this.closeModal();
     }
 }

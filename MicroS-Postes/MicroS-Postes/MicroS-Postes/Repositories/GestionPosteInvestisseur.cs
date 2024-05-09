@@ -42,8 +42,8 @@ namespace MicroS_Postes.Repositories
                 Montant = poste.Montant,
                 Secteur = poste.Secteur,
                 Status = 0,
-                Image = poste.Image,
-                TypeInvestissement = poste.TypeInvestissement,
+               Image = poste.Image,
+               TypeInvestissement = poste.TypeInvestissement,
                 NumLikes = 0
             };
 

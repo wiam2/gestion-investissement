@@ -157,6 +157,22 @@
   },
   {
     "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
+    "Method": "XGetRecomInvPostesById",
+    "RelativePath": "api/PosteInv/RecomInvPosteById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
     "Method": "UpdatePosteInvestisseur",
     "RelativePath": "api/PosteInv/UpdatePoste/{id}",
     "HttpMethod": "PUT",
@@ -278,6 +294,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteStarController",
+    "Method": "XGetRecomStartupPostesById",
+    "RelativePath": "api/PosteStar/RecomtartupPosteById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
