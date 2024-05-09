@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 import { Startup } from '../models/Startup.model';
+import {Investisseur} from "../models/Investisseur.model";
 
 
 @Injectable({
@@ -20,4 +21,8 @@ export class StartupService {
     GetProfileStartup(id:string):Observable<Startup>{
         return this.httpClient.get<Startup>(`${this.baseURL}/Startup/affichageStartupbyid/${id}`);
     }
+    UpdatStartUp(id:string,startup: Startup):Observable<Object>{
+        return this.httpClient.put(`${this.baseURL}/Startup/UpdateStartup/${id}`,startup);
+    }
+
 }

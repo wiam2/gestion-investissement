@@ -1,123 +1,119 @@
 <div class="modal" >
   <div class="modal-content">
-<div class="popup-container " >
-<div class="main" >
+    <div class="popup-container " >
+      <div class="main" >
 
-<div class="card">
-  <div class="card-body">
-    <div class="buttons-container">
+        <div class="card">
+          <div class="card-body">
+            <div class="buttons-container">
 
 
-      <button (click)="close()" class="red-button"><i class="bi bi-x"></i></button>
+              <button (click)="close()" class="red-button"><i class="bi bi-x"></i></button>
+            </div>
+            <table  *ngIf="role === 'Invest'; else startupDefenition" >
+              <tbody>
+              <tr>
+                <td>Nom</td>
+                <td>:</td>
+                <td><input value="{{dataedit.nom}}" [(ngModel)]="investisseur.nom" name="nom"> </td>
+              </tr>
+              <tr>
+                <td>Prenom</td>
+                <td>:</td>
+                <td><input value="{{dataedit.prenom}}" [(ngModel)]="investisseur.prenom" name="prenom"></td>
+              </tr>
+              <tr>
+                <td>CIN</td>
+                <td>:</td>
+                <td><input value="{{dataedit.cin}}" [(ngModel)]="investisseur.cin" name="cin"></td>
+              </tr>
+              <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td><input value="{{dataedit.email}}" [(ngModel)]="investisseur.email" name="email"></td>
+              </tr>
+
+              <tr>
+                <td>Telephone</td>
+                <td>:</td>
+                <td><input value="{{dataedit.tel}}" [(ngModel)]="investisseur.tel" name="tel"></td>
+              </tr>
+              <tr>
+                <td>Mot de passe</td>
+                <td>:</td>
+                <td><input type="password"  [(ngModel)]="investisseur.password" name="password"></td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top;">Description</td>
+                <td style="vertical-align: top;">:</td>
+                <td><textarea cols="40" rows="4" value="{{dataedit.profilDescription}}" [(ngModel)]="investisseur.profilDescription" name="profilDescription"></textarea></td>
+              </tr>
+              <tr>
+
+                <button (click)="submit()" type="submit">Enregistrer les modifications</button>
+
+              </tr>
+              </tbody>
+            </table>
+            <ng-template #startupDefenition>
+              <table>
+                <tbody>
+                <tr>
+                  <td>Le nom officiel</td>
+                  <td>:</td>
+                  <td ><input value="{{dataedit.nomstr}}" [(ngModel)]="startup.nomstr" name="nomstr"></td>
+                </tr>
+
+                <tr>
+                  <td>Fondateur</td>
+                  <td>:</td>
+                  <td ><input value="{{dataedit.fondateur}}" [(ngModel)]="startup.fondateur" name="fondateur"></td>
+                </tr>
+
+                <tr>
+                  <td>Email</td>
+                  <td>:</td>
+                  <td><input value="{{dataedit.email}}" [(ngModel)]="startup.email" name="email" ></td>
+                </tr>
+                <tr>
+                  <td>Mot de passe</td>
+                  <td>:</td>
+                  <td><input type="password" placeholder="Veuillez saisir votre mot de passe" [(ngModel)]="startup.password" name="pswd"></td>
+                </tr>
+
+                <tr>
+                  <td>Site Web</td>
+                  <td>:</td>
+                  <td><input value="{{dataedit.siteweb}}" [(ngModel)]="startup.siteweb" name="siteweb"></td>
+                </tr>
+                <tr>
+                  <td>Ville</td>
+                  <td>:</td>
+                  <td><input value="{{dataedit.ville}}"  [(ngModel)]="startup.ville" name="ville"></td>
+                </tr>
+                <tr>
+                  <td>Adresse</td>
+                  <td>:</td>
+                  <td><input value="{{dataedit.lieu}}" [(ngModel)]="startup.lieu" name="lieu"></td>
+                </tr>
+                <tr>
+                  <td style="vertical-align: top;">Description</td>
+                  <td style="vertical-align: top;">:</td>
+                  <td><textarea cols="40" rows="4" value="{{dataedit.description}}" [(ngModel)]="startup.description" name="description"></textarea></td>
+                </tr>
+                <tr>
+
+                  <button (click)="submit()" type="submit">Enregistrer les modifications</button>
+
+                </tr>
+                </tbody>
+              </table>
+
+            </ng-template>
+          </div>
+        </div>
+      </div>
     </div>
-    <table  *ngIf="role === 'Invest'; else startupDefenition" >
-      <tbody>
-      <tr>
-        <td>Nom</td>
-        <td>:</td>
-        <td>{{this.investisseur.nom}}</td>
-      </tr>
-      <tr>
-        <td>Prenom</td>
-        <td>:</td>
-        <td>{{investisseur.prenom}}</td>
-      </tr>
-      <tr>
-        <td>CIN</td>
-        <td>:</td>
-        <td><input value="{{investisseur.cin}}"></td>
-      </tr>
-      <tr>
-        <td>Email</td>
-        <td>:</td>
-        <td><input value="{{investisseur.email}}"></td>
-      </tr>
-
-      <tr>
-        <td>Telephone</td>
-        <td>:</td>
-        <td><input value="{{investisseur.tel}}"></td>
-      </tr>
-      <tr>
-        <td>Mot de passe</td>
-        <td>:</td>
-        <td><input  placeholder="  Nouveau Mot de passe?" ></td>
-      </tr>
-      <tr>
-        <td>Comfirmer Mot de passe</td>
-        <td>:</td>
-        <td><input placeholder="  Comfirmer"></td>
-      </tr>
-      <tr>
-        <td style="vertical-align: top;">Description</td>
-        <td style="vertical-align: top;">:</td>
-        <td><textarea cols="40" rows="4" value="{{investisseur.profilDescription}}"></textarea></td>
-      </tr>
-      <tr>
-
-        <button (click)="submit()" type="submit">Enregistrer les modifications</button>
-
-      </tr>
-      </tbody>
-    </table>
-    <ng-template #startupDefenition>
-      <table>
-        <tbody>
-        <tr>
-          <td>Le nom officiel</td>
-          <td>:</td>
-          <td>{{startup.dateInscription}}</td>
-        </tr>
-
-        <tr>
-          <td>Fondateur</td>
-          <td>:</td>
-          <td>{{startup.nomstr}}</td>
-        </tr>
-
-        <tr>
-          <td>Email</td>
-          <td>:</td>
-          <td><input value="{{startup.email}}"></td>
-        </tr>
-        <tr>
-          <td>Mot de passe</td>
-          <td>:</td>
-          <td><input></td>
-        </tr>
-        <tr>
-          <td>Comfirmer Mot de passe</td>
-          <td>:</td>
-          <td><input></td>
-        </tr>
-        <tr>
-          <td>Site Web</td>
-          <td>:</td>
-          <td><input value="{{startup.siteweb}}"></td>
-        </tr>
-        <tr>
-          <td>Ville</td>
-          <td>:</td>
-          <td><input value="{{startup.ville}}"></td>
-        </tr>
-        <tr>
-          <td>Adresse</td>
-          <td>:</td>
-          <td><input value="{{startup.lieu}}"></td>
-        </tr>
-        <tr>
-
-          <button (click)="submit()" type="submit">Enregistrer les modifications</button>
-
-        </tr>
-        </tbody>
-      </table>
-
-    </ng-template>
-  </div>
-</div>
-</div>
-</div>
   </div>
 </div>
 <div class="modal-background" (click)=" close()"></div>

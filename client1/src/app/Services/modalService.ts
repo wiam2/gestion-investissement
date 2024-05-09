@@ -14,7 +14,7 @@ import {AuthService} from "./AuthService.service";
 @Injectable({
   providedIn: 'root'
 })
-export class modalService implements OnInit {
+export class modalService  {
 
     role: string|null = '';
     id : string = '';
@@ -31,46 +31,24 @@ private modalNotifier?:Subject<string>
               private route: ActivatedRoute,private authservice:AuthService
   ) {
   }
-  ngOnInit(): void {
-    this.id = this.route.snapshot.params['id'];
-    if(this.authservice.currentUserRole()==="RInvestisseur"){
-      console.log(this.authservice.currentUserRole())
-      this.role = 'Invest';
-      this.InvesService.GetProfileInv(this.id).subscribe(data =>{
-        this.investisseur=data;
 
-        console.log(data);
-      }, error => console.log(error));
-
-
-
-    } else {
-      this.StartupService.GetProfileStartup(this.id).subscribe(data =>{
-        this.startup=data;
-
-        console.log(data);
-      }, error => console.log(error));
-
-    }
-
-
-  }
-  open(content :TemplateRef<any>){
-
-      const modalComponentFactory=this.resolver.resolveComponentFactory(EditProfileComponent)
-  const contentViewRef=content.createEmbeddedView(null)
-   const modalComponent = modalComponentFactory.create(this.injector,[
-     contentViewRef.rootNodes,
-   ]);
-modalComponent.instance.closeEvent.subscribe(()=>
-this.closeModal());
-    modalComponent.instance.submitEvent.subscribe(()=>
-      this.submitModal());
- modalComponent.hostView.detectChanges() ;
- this.document.body.appendChild(modalComponent.location.nativeElement)
-  this.modalNotifier=new Subject()
+  open(content: TemplateRef<any>, id: string,Data:any) {
+    const modalComponentFactory = this.resolver.resolveComponentFactory(EditProfileComponent);
+    const contentViewRef = content.createEmbeddedView(null);
+    const modalComponent = modalComponentFactory.create(this.injector, [
+      contentViewRef.rootNodes,
+    ]);
+    modalComponent.instance.dataedit = Data;
+    console.log(Data);
+    modalComponent.instance.id = id; // Transmettez l'id au composant de popup
+    modalComponent.instance.closeEvent.subscribe(() => this.closeModal());
+    modalComponent.instance.submitEvent.subscribe(() => this.submitModal());
+    modalComponent.hostView.detectChanges();
+    this.document.body.appendChild(modalComponent.location.nativeElement);
+    this.modalNotifier = new Subject();
     return this.modalNotifier?.asObservable();
-   }
+  }
+
    closeModal(){
    this.modalNotifier?.complete();
    }

@@ -15,32 +15,25 @@ import {modalService} from "../Services/modalService";
 })
 export class EditProfileComponent implements OnInit {
     role: string|null = '';
-    id : string = '';
+
     investisseur : Investisseur = new Investisseur();
     startup : Startup = new Startup();
- @Input() size?="md";
+  Success: boolean = false;
+  @Input() id: string ="";
+  @Input() dataedit: any;
+  @Input() size?="md";
  @Output() closeEvent=new EventEmitter();
  @Output() submitEvent=new EventEmitter();
 constructor(private elementRef:ElementRef,private authservice:AuthService ,private InvesService: InvestisseurService, private StartupService:StartupService,private router:Router ,  private route: ActivatedRoute,private modalService:modalService) {
 
 }
     ngOnInit(): void {
-        this.id ='100a7513-b1b4-4dbb-bacf-d9791ec415ae';
         if(this.authservice.currentUserRole()==="RInvestisseur"){
             console.log(this.authservice.currentUserRole())
             this.role = 'Invest';
-            this.InvesService.GetProfileInv(this.id).subscribe(data =>{
-                this.investisseur=data;
-
-                console.log(data);
-            }, error => console.log(error));
-
+                this.investisseur=this.dataedit;
         } else {
-            this.StartupService.GetProfileStartup(this.id).subscribe(data =>{
-                this.startup=data;
-console.log(this.startup);
-
-            }, error => console.log(error));
+                this.startup=this.dataedit;
 
         }
 
@@ -52,6 +45,29 @@ close(){
    this.closeEvent.emit();
 }
 submit(){
+  console.log(this.id);
+  console.log(this.dataedit);
+    if(this.authservice.currentUserRole()==="RInvestisseur"){
+  this.investisseur.confirmPassword=this.investisseur.password;
+  this.InvesService.UpdateInvest(this.id, this.investisseur).subscribe(data => {
+      console.log(this.investisseur);
+      this.Success = true;
+      console.log(this.Success);
+      console.log(data);
+      location.reload();
+    },
+    error => console.log(error))}
+    else{
+      console.log(this.startup);
+      console.log(this.id);
+        this.startup.confirmPassword=this.startup.password;
+        this.StartupService.UpdatStartUp(this.id,this.startup).subscribe(data=>{
+
+  console.log(data);
+  location.reload();
+},error=>console.log(error))
+    }
+
     this.elementRef.nativeElement. remove();
     this.submitEvent.emit();
 }

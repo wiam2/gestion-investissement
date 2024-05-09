@@ -19,8 +19,9 @@ export class InvestisseurService {
     GetProfileInv(id:string):Observable<Investisseur>{
         return this.httpClient.get<Investisseur>(`${this.baseURL}/Investisseur/affichageInvestisseur/${id}`);
     }
-    UpdateProfile(id:string,investisseur: Investisseur):Observable<Object>{
+    UpdateInvest(id:string,investisseur: Investisseur):Observable<Object>{
       return this.httpClient.put(`${this.baseURL}/Investisseur/UpdateInvestisseur/${id}`,investisseur);
     }
+
 
 }

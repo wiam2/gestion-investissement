@@ -23,6 +23,7 @@ export class ProfileComponent implements OnInit {
   id : string = '';
   investisseur : Investisseur = new Investisseur();
   startup : Startup = new Startup ();
+  data : any ;
   constructor(private authservice:AuthService ,private InvesService: InvestisseurService, private StartupService: StartupService,private router:Router ,  private route: ActivatedRoute,private modalService:modalService,
               private modalPosteService:EditPosteModalService,
   private modalDeleteProfile:DeleteModalService,
@@ -57,14 +58,19 @@ export class ProfileComponent implements OnInit {
 
 
 
-  openModal(modalTemplate:TemplateRef<any>) {
+  openModal(modalTemplate: TemplateRef<any>) {
+    this.id = this.route.snapshot.params['id'];
+    if(this.authservice.currentUserRole()==="RInvestisseur")
+    {this.data = this.investisseur ;}
+    else {this.data= this.startup;}
     this.modalService
-      .open(modalTemplate)
-      .subscribe((action)=>{
-        console.log('modalAction',action);
+      .open(modalTemplate, this.id,this.data)
+      .subscribe((action) => {
+        console.log('modalAction', action);
       });
   }
-    openModalPoste(modalPosteTemplate:TemplateRef<any>) {
+
+  openModalPoste(modalPosteTemplate:TemplateRef<any>) {
         this.modalPosteService
             .open(modalPosteTemplate)
             .subscribe((action)=>{
@@ -92,6 +98,7 @@ export class ProfileComponent implements OnInit {
                 console.log('modalAction',action);
             });
     }
+
 
 
 
