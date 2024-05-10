@@ -68,6 +68,19 @@ namespace MicroS_Postes.Controllers
                 return StatusCode(500, $"Une erreur s'est produite: {ex.Message}");
             }
         }
+      
+  [HttpGet("getPosteByUserId/{id}")]
+
+  public async Task<IActionResult> GetStartupByUserId(string id)
+        {
+            var startupDTO = await _serviceInv.GetPostesByUserId(id);
+            if (startupDTO == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(startupDTO);
+        }
         [HttpDelete("Delete/{id}")]
         public async Task<IActionResult> DeletePosteInv(int id)
         {

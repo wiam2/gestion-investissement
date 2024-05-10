@@ -137,6 +137,22 @@
   },
   {
     "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
+    "Method": "GetStartupByUserId",
+    "RelativePath": "api/PosteInv/getPosteByUserId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
     "Method": "GetPostesInvZero",
     "RelativePath": "api/PosteInv/PostesInvestisseurZero",
     "HttpMethod": "GET",
@@ -271,6 +287,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteStarController",
+    "Method": "GetStartupByUserId",
+    "RelativePath": "api/PosteStar/getPosteByUserId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

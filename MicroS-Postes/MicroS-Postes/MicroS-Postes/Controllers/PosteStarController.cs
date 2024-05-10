@@ -111,6 +111,19 @@ namespace MicroS_Postes.Controllers
 
             return Ok(startupIDs);
         }
+       
+ [HttpGet("getPosteByUserId/{id}")]
+
+ public async Task<IActionResult> GetStartupByUserId(string id)
+        {
+            var startupDTO = await _serviceStar.GetPostesByUserId(id);
+            if (startupDTO == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(startupDTO);
+        }
 
     }
 }

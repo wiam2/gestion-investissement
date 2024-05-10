@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\dell\\desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\migrations\\20240507150617_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\migrations\\20240507150617_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|c:\\users\\dell\\desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\controllers\\startupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\controllers\\startupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\services\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\services\\iuseraccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\controllers\\invesstisseurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\controllers\\invesstisseurcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\dtos\\startupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\dtos\\startupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\dtos\\investisseurdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\dtos\\investisseurdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\migrations\\20240507150617_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\migrations\\20240507150617_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\microsauth\u0026guser.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -38,24 +66,12 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\Project\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215135_lastTry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\dtos\\startupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\dtos\\startupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\data\\applicationstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\data\\applicationstartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\dtos\\investisseurdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\dtos\\investisseurdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\data\\applicationinvestisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,10 +80,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\dtos\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,14 +95,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\I511\\source\\repos\\MicroServiceMessagerie\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\controllers\\startupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|solutionrelative:microsauth\u0026guser\\controllers\\startupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EA812D5-8A3D-4D45-9AAA-BC27C891195E}|MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\microsauth\u0026guser\\controllers\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -128,240 +132,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240507150617_a.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240507150617_a.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Migrations\\20240507150617_a.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240507150617_a.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\Migrations\\20240507150617_a.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T15:06:17.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\WeatherForecast.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\WeatherForecast.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAUwA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T17:58:09.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MicroSAuth\u0026GUser.http",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\MicroSAuth\u0026GUser.http",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\MicroSAuth\u0026GUser.http",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\MicroSAuth\u0026GUser.http",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\MicroSAuth\u0026GUser.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-03-11T21:48:12.64Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\appsettings.json",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\appsettings.json",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\appsettings.json",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-27T17:31:40.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "InvesstisseurController.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\InvesstisseurController.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\InvesstisseurController.cs",
               "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\InvesstisseurController.cs",
               "RelativeToolTip": "MicroSAuth\u0026GUser\\Controllers\\InvesstisseurController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAswDYAAAAJAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-27T21:21:28.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20240426124521_migration22.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T12:45:21.997Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "20240422215135_lastTry.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Project\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215135_lastTry.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\HP\\Desktop\\Project\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215135_lastTry.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Project\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215135_lastTry.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\HP\\Desktop\\Project\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215135_lastTry.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T21:51:36.05Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20240425145827_auth.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240425145827_auth.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Migrations\\20240425145827_auth.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240425145827_auth.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\Migrations\\20240425145827_auth.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T14:58:28.037Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\I511\\source\\repos\\MicroServiceMessagerie\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\I511\\source\\repos\\MicroServiceMessagerie\\appsettings.json",
-              "ToolTip": "C:\\Users\\I511\\source\\repos\\MicroServiceMessagerie\\appsettings.json",
-              "RelativeToolTip": "..\\..\\..\\..\\I511\\source\\repos\\MicroServiceMessagerie\\appsettings.json",
-              "ViewState": "AQIAABEAAAAAAAAAAAAYwCQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-05T02:32:03.864Z"
+              "WhenOpened": "2024-03-02T17:17:32.078Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "20240422215308_LastTry.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215308_LastTry.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Migrations\\20240422215308_LastTry.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215308_LastTry.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\Migrations\\20240422215308_LastTry.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T21:53:09.043Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "StartupController.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\StartupController.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\StartupController.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\StartupController.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\Controllers\\StartupController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T12:47:36.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "test.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\test.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\test.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\test.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\Controllers\\test.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-14T12:38:06.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Repositories\\AccountRepository.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Repositories\\AccountRepository.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Repositories\\AccountRepository.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\Repositories\\AccountRepository.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwDEAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T21:04:58.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\LoginDTO.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\DTOs\\LoginDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T20:27:20.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserSession.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\UserSession.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\UserSession.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\UserSession.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\DTOs\\UserSession.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T20:57:33.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "StartupDTO.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\StartupDTO.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\StartupDTO.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\StartupDTO.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\DTOs\\StartupDTO.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBkAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T20:57:58.449Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ApplicationInvestisseur.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Data\\ApplicationInvestisseur.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Data\\ApplicationInvestisseur.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Data\\ApplicationInvestisseur.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\Data\\ApplicationInvestisseur.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T14:35:50.212Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Properties\\launchSettings.json",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-11T20:42:34.122Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ServiceResponses.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\ServiceResponses.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\ServiceResponses.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\ServiceResponses.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\DTOs\\ServiceResponses.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T16:29:12.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "InvestisseurDTO.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\InvestisseurDTO.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\InvestisseurDTO.cs",
@@ -373,19 +172,249 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\DTOs\\UserDTO.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "StartupDTO.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\StartupDTO.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\StartupDTO.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\StartupDTO.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\DTOs\\StartupDTO.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAmwBMAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T17:17:32.078Z"
+              "WhenOpened": "2024-04-16T20:57:58.449Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\appsettings.json",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\appsettings.json",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\appsettings.json",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-27T17:31:40.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StartupController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\StartupController.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\StartupController.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\StartupController.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\Controllers\\StartupController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T12:47:36.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAUwFMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T14:17:45.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Repositories\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\Repositories\\AccountRepository.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAmwJAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T21:04:58.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserAccount.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Services\\IUserAccount.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Services\\IUserAccount.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Services\\IUserAccount.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\Services\\IUserAccount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T10:30:31.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240426124521_migration22.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\Migrations\\20240426124521_migration22.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T12:45:21.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240507150617_a.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240507150617_a.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Migrations\\20240507150617_a.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240507150617_a.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\Migrations\\20240507150617_a.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T15:06:17.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MicroSAuth\u0026GUser.http",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\MicroSAuth\u0026GUser.http",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\MicroSAuth\u0026GUser.http",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\MicroSAuth\u0026GUser.http",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\MicroSAuth\u0026GUser.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-03-11T21:48:12.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\WeatherForecast.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\WeatherForecast.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAUwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T17:58:09.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240422215135_lastTry.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Project\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215135_lastTry.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\HP\\Desktop\\Project\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215135_lastTry.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Project\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215135_lastTry.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\HP\\Desktop\\Project\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215135_lastTry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:51:36.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240425145827_auth.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240425145827_auth.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Migrations\\20240425145827_auth.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240425145827_auth.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\Migrations\\20240425145827_auth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T14:58:28.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\I511\\source\\repos\\MicroServiceMessagerie\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\I511\\source\\repos\\MicroServiceMessagerie\\appsettings.json",
+              "ToolTip": "C:\\Users\\I511\\source\\repos\\MicroServiceMessagerie\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\..\\I511\\source\\repos\\MicroServiceMessagerie\\appsettings.json",
+              "ViewState": "AQIAABEAAAAAAAAAAAAYwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-05T02:32:03.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240422215308_LastTry.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215308_LastTry.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Migrations\\20240422215308_LastTry.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Migrations\\20240422215308_LastTry.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\Migrations\\20240422215308_LastTry.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T21:53:09.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "test.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\test.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\test.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\test.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\Controllers\\test.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T12:38:06.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\DTOs\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T20:27:20.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\UserSession.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\UserSession.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\UserSession.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\DTOs\\UserSession.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T20:57:33.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationInvestisseur.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Data\\ApplicationInvestisseur.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Data\\ApplicationInvestisseur.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Data\\ApplicationInvestisseur.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\Data\\ApplicationInvestisseur.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T14:35:50.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-11T20:42:34.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ServiceResponses.cs",
+              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\ServiceResponses.cs",
+              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\DTOs\\ServiceResponses.cs",
+              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\DTOs\\ServiceResponses.cs",
+              "RelativeToolTip": "MicroSAuth\u0026GUser\\DTOs\\ServiceResponses.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T16:29:12.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\WeatherForecastController.cs",
@@ -397,19 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "MicroSAuth\u0026GUser\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T14:17:45.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "MicroS-Auth-GUser.csproj",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\MicroS-Auth-GUser.csproj",
@@ -421,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Program.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Program.cs",
@@ -433,7 +450,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Data\\ApplicationUser.cs",
@@ -445,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Data\\AppDbContext.cs",
@@ -457,7 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "IinvistisseurService.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Services\\IinvistisseurService.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Services\\IinvistisseurService.cs",
@@ -469,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "ApplicationStartup.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Data\\ApplicationStartup.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Data\\ApplicationStartup.cs",
@@ -481,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "InvestisseurRepository.cs",
               "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroSAuth\u0026GUser\\Repositories\\InvestisseurRepository.cs",
               "RelativeDocumentMoniker": "MicroSAuth\u0026GUser\\Repositories\\InvestisseurRepository.cs",

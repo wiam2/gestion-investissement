@@ -12,7 +12,7 @@ import { PosteService } from '../Services/PosteService.service';
 })
 export class DeleteposteComponent implements OnInit {
   @Input() size? = "md";
-  @Input() idPoste:any;
+  @Input() idPoste: any;
   @Output() closeEvent = new EventEmitter();
   @Output() submitEvent = new EventEmitter();
   role: string = "";
@@ -37,17 +37,32 @@ export class DeleteposteComponent implements OnInit {
 
   confirmer() {
 
-    // console.log(this.idPoste);
-    //   if(this.role=='Invest'){
-    //   this.posteService.deletePosteInv(this.idPoste);
-    // }
-    // else{
-    //   this.posteService.deletePosteStar(this.idPoste);
-    // }
+    console.log(this.idPoste);
+
   }
   submit() {
- 
-    this.elementRef.nativeElement.remove();
-    this.submitEvent.emit();
+    // console.log(this.idPoste);
+    // this.posteService.deletePosteInv(this.idPoste).subscribe(data => {
+    //   console.log(data);
+    // });
+    // this.elementRef.nativeElement.remove();
+    // this.submitEvent.emit();
+
+
+    if (this.role == 'Invest') {
+      this.posteService.deletePosteInv(this.idPoste).subscribe(data => {
+          console.log(data);
+        });
+      this.elementRef.nativeElement.remove();
+      this.submitEvent.emit();
+    }
+    else {
+      this.posteService.deletePosteStar(this.idPoste).subscribe(data => {
+        console.log(data);
+      });
+      this.elementRef.nativeElement.remove();
+      this.submitEvent.emit();
+    }
+
   }
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Router} from "@angular/router";
+import { Router } from "@angular/router";
 import { user } from '../models/user.model';
 import { AuthService } from '../Services/AuthService.service';
 
@@ -10,21 +10,32 @@ import { AuthService } from '../Services/AuthService.service';
 })
 export class LoginComponent implements OnInit {
   message: string = '';
-  User:user = new user();
+  User: user = new user();
   authenticatedUser!: user | null;
-  constructor(private authservice :AuthService,private router: Router) { }
+  constructor(private authservice: AuthService, private router: Router) { }
 
   ngOnInit(): void {
     this.authservice.logout();
   }
+  forget(password: any) {
+    console.log(password);
+    this.authservice.forgetPassword(password).subscribe(
+      data => {
+        console.log(data); // Afficher la réponse du serveur en cas de succès
+      },
+      error => {
+        console.error('erreur', error); // Afficher l'erreur en cas d'échec
+      }
+    );
+  }
   login() {
     const credentials = { email: this.User.email, password: this.User.password };
-  
+
     this.authservice.login(credentials).subscribe({
       next: (response) => {
         // Récupérer l'utilisateur authentifié
         this.authenticatedUser = this.authservice.currentUser();
-        
+
         // Vérifier si l'utilisateur est authentifié avant de naviguer vers la page
         if (this.authenticatedUser) {
           console.log(this.authenticatedUser);
@@ -41,14 +52,14 @@ export class LoginComponent implements OnInit {
       }
     });
   }
-  
-  
+
+
 
   redirectToSignup() {
     this.router.navigate(['/signup']);
   }
 
 
- 
+
 
 }

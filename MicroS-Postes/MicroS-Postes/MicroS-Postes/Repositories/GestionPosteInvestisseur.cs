@@ -51,6 +51,31 @@ namespace MicroS_Postes.Repositories
             databaseContext.PostesInvestisseur.Add(posteInvestisseur);
             await databaseContext.SaveChangesAsync();
         }
+       
+public async Task<List<PosteInvDTO>> GetPostesByUserId(string userId)
+        {
+            // Filtrer les postes par l'ID de l'utilisateur
+            var postes = await databaseContext.PostesInvestisseur
+                                              .Where(poste => poste.IdOwner == userId)
+                                              .ToListAsync();
+
+            // Mapper les postes filtrés vers DTO
+            return postes.Select(poste => new PosteInvDTO
+            {
+
+                Id = poste.Id,
+                Titre = poste.Titre,
+                IdOwner = poste.IdOwner,
+                DatePoste = poste.DatePoste,
+                Description = poste.Description,
+                Montant = poste.Montant,
+                Secteur = poste.Secteur,
+                Status = poste.Status,
+                Image = poste.Image,
+                TypeInvestissement = poste.TypeInvestissement,
+                NumLikes = poste.NumLikes
+            }).ToList();
+        }
 
         public async Task DeletePoste(int id)
         {

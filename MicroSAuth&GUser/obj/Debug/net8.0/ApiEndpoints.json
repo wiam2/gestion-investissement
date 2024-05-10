@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "MicroSAuth_GUser.Controllers.AccountController",
+    "Method": "GetUserRoleAndEmail",
+    "RelativePath": "api/Account/getINFO/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroSAuth_GUser.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/Account/login",
     "HttpMethod": "POST",

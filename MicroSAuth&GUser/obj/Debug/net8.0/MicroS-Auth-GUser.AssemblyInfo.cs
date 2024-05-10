@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroS-Auth-GUser")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5e7eeec16f11da7f1473da6e18587ce99204545")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0bab762db33f5f77fae8c991dc68748de0123f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroS-Auth-GUser")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroS-Auth-GUser")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

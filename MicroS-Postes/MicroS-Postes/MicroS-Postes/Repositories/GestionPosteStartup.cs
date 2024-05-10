@@ -135,6 +135,30 @@ namespace MicroS_Postes.Repositories
 
                 }).ToList();
             }
+       
+ public async Task<List<PosteStarDTO>> GetPostesByUserId(string userId)
+        {
+            // Filtrer les postes par l'ID de l'utilisateur
+            var postes = await databaseContext.PostesStartup
+                                              .Where(poste => poste.IdOwner == userId)
+                                              .ToListAsync();
+
+            // Mapper les postes filtrés vers DTO
+            return postes.Select(poste => new PosteStarDTO
+            {
+                Id = poste.Id,
+                Titre = poste.Titre,
+                IdOwner = poste.IdOwner,
+                DatePoste = poste.DatePoste,
+                Description = poste.Description,
+                Montant = poste.Montant,
+                Secteur = poste.Secteur,
+                Status = poste.Status,
+                Image = poste.Image,
+                EtapeDev = poste.EtapeDev,
+                NumLikes = poste.NumLikes
+            }).ToList();
+        }
 
         public async Task<List<PosteStarDTO>> GetAllPostesStar()
         {
