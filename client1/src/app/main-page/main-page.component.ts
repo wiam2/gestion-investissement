@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { poste } from '../models/poste.model';
-import { OnInit } from '@angular/core';
+import { OnInit , inject} from '@angular/core';
 import { AuthService } from '../Services/AuthService.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { PosteService } from '../Services/PosteService.service';
@@ -11,6 +11,8 @@ import { InvestisseurService } from '../Services/InvestisseurService.service';
 import { StartupService } from '../Services/StartupService.service';
 import { switchMap, map } from 'rxjs/operators';
 import { Observable, forkJoin, of } from 'rxjs';
+import { ChatService } from '../Services/chat.service';
+
 @Component({
   selector: 'app-main-page',
   templateUrl: './main-page.component.html',
@@ -24,8 +26,13 @@ export class MainPageComponent implements OnInit {
   Posts: any;
   nom: any;
   idOwner:string="";
+  useremail:string="";
+ 
+  chatService = inject(ChatService);
   constructor(private authservice: AuthService, private router: Router, private route: ActivatedRoute, private posteService: PosteService, private investService: InvestisseurService, private startService: StartupService) { }
   ngOnInit(): void {
+    const currentUser = this.authservice.currentUser();
+    this.useremail = currentUser ? currentUser.email : '';
 
     if (this.authservice.currentUserRole() === "RInvestisseur") {
       console.log(this.authservice.currentUserRole())
@@ -103,6 +110,7 @@ loadPost() {
           map(noms => {
             posts.forEach((post, index) => {
               post.nomOwner = noms[index].nomstr;
+              post.emailowner=noms[index].email;
             });
             return posts;
           })
@@ -117,6 +125,7 @@ loadPost() {
           map(noms => {
             posts.forEach((post, index) => {
               post.nomOwner = noms[index].nom + " " + noms[index].prenom;
+              post.emailowner=noms[index].email;
             });
             return posts;
           })
@@ -197,7 +206,21 @@ loadPost() {
       console.error('No file selected');
     }
   }
-
+  joinRoom(user: string, room: string,name :string) {
+    console.log(user, room);   
+     this.chatService.start(); // Reconnexion à SignalR après avoir rejoint la salle
+    this.chatService.joinRoom(user, room)
+      .then(() => {
+        sessionStorage.setItem("me", user);
+        sessionStorage.setItem("contact", name);
+        
+       
+       
+        this.router.navigate(['conversation/chat',name]);
+      }).catch((err) => {
+        console.log(err);
+      })
+  }
 
 }
 

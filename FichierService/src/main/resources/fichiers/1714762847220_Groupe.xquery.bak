@@ -1,0 +1,39 @@
+declare variable $student := doc("D:/PROJET/ENSA/XML/file xml/Students/par_filiere/Students_GINF2.xml")/Students/Filiere;
+declare variable $groupSize := 2;
+declare variable $taille :=xs:integer(fn:ceiling(count($student/student) div $groupSize) - 1);
+
+element  listTP {
+  for $group  in 0 to $taille
+  let $groupStart := ($group * $groupSize) +1
+  let $groupEnd := ($group + 1) * $groupSize
+  let $TP := fn:concat("TP",($group +1))
+  
+  return
+  fn:put(
+     element {fn:lower-case($TP)} {
+      $student/student[position()=$groupStart to $groupEnd] 
+
+    }
+	 , fn:concat("/D:/PROJET/ENSA/XML/xquery to xml/TP",$group+1,".xml"))
+
+}
+(: Stylus Studio meta-information - (c) 2004-2009. Progress Software Corporation. All rights reserved.
+
+<metaInformation>
+	<scenarios>
+		<scenario default="yes" name="Scenario1" userelativepaths="yes" externalpreview="no" useresolver="yes" url="" outputurl="" processortype="datadirect" tcpport="7143521" profilemode="0" profiledepth="" profilelength="" urlprofilexml="" commandline=""
+		          additionalpath="" additionalclasspath="" postprocessortype="none" postprocesscommandline="" postprocessadditionalpath="" postprocessgeneratedext="" host="" port="0" user="" password="" validateoutput="no" validator="internal"
+		          customvalidator="">
+			<advancedProperties name="CollectionURIResolver" value=""/>
+			<advancedProperties name="ModuleURIResolver" value=""/>
+			<advancedProperties name="DocumentURIResolver" value=""/>
+		</scenario>
+	</scenarios>
+	<MapperMetaTag>
+		<MapperInfo srcSchemaPathIsRelative="yes" srcSchemaInterpretAsXML="no" destSchemaPath="" destSchemaRoot="" destSchemaPathIsRelative="yes" destSchemaInterpretAsXML="no"/>
+		<MapperBlockPosition></MapperBlockPosition>
+		<TemplateContext></TemplateContext>
+		<MapperFilter side="source"></MapperFilter>
+	</MapperMetaTag>
+</metaInformation>
+:)

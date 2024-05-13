@@ -5967,23 +5967,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dell\\.nuget\\packages\\": {},
+    "C:\\Users\\I511\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes.csproj",
+      "projectUniqueName": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes.csproj",
       "projectName": "MicroS-Postes",
-      "projectPath": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes.csproj",
-      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\obj\\",
+      "projectPath": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes.csproj",
+      "packagesPath": "C:\\Users\\I511\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\I511\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

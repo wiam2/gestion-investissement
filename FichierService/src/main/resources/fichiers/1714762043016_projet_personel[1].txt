@@ -1,0 +1,48 @@
+qualite logiciel : 
+Afin de définir Un ingénieur QA il faut savoir que QA veut dire Quality Assurance, Assurance Qualité en français.
+
+Dans le domaine informatique, il s’agit de garantir la qualité des développements réalisés. Autrement dit, qu’une fois mis en production, le logiciel va fonctionner comme attendu.
+
+Pour garantir la qualité du code produit, l’ingénieur QA va concevoir et mettre en œuvre un ensemble de tests fonctionnels et techniques. Il va détecter les bugs éventuels et les cas limites d’utilisation afin de présenter tous ces éléments aux développeurs afin qu’ils puissent corriger les problèmes.
+
+Missions principales : 
+
+
+Définir le plan de test
+Mettre en place de tests unitaires et de tests d’intégration
+Automatisation des test
+Création d’outils de détection de bugs
+Reportage des problèmes constatés
+
+Compétences techniques: 
+
+Gérer des campagnes de test (Intégration, Validation, Non régression)
+Concevoir des plans de test
+Automatiser des scénarios de test (et donc utiliser de langages de scripting comme Shell ou Bash)
+Réaliser des rapports précis pour décrire les problèmes rencontrés
+
+Qualités personnelles
+L’Ingénieur QA doit posséder :
+
+Une grande rigueur, afin de veiller sur le respect intégral des procédures de qualité ; ceci est particulièrement important dans le domaine industriel où toute négligence peut avoir des conséquences catastrophiques,
+Capacité à communiquer, pour faire passer avec diplomatie les contraintes induites par la démarche qualité auprès d’opérationnels qui peuvent les vivre comme un obstacle au respect de leurs délais et objectif,
+Connaissance fine des normes qualité internationale, qui lui permettra de contribuer à la conservation des certification ISO par l’entreprise lors des audits de contrôle.
+
+Type de formation: 
+Il est possible de devenir ingénieur QA à la sortie d’une école d’ingénieur ou d’une formation en informatique de niveau BAC+5.
+
+Pour autant, débuter sa carrière en tant que programmeur permet de se constituer un bagage technique fort utile au moment de tester un logiciel : on comprend ainsi mieux son fonctionnement, ce qui aide à déterminer dans quelle direction aller chercher les bugs.
+
+A noter également que si un ingénieur développement logiciel peut basculer vers le domaine du test, la réciproque est par contre beaucoup moins vraie. Donc au moment de se lancer, il faut vraiment aimer cette activité et présenter la bonne combinaison de compétences techniques et de savoir-être.
+
+Assurance qualité (QA - Quality Assurance) : Cette tâche implique l'établissement de normes, de processus et de méthodologies pour assurer que le développement du logiciel est conforme aux exigences définies. Elle comprend la création de plans de test, la mise en place de systèmes de suivi qualité et l'assurance que les normes sont respectées à chaque étape du processus.
+
+Contrôle qualité (QC - Quality Control) : Il s'agit de l'inspection et de la vérification du produit final pour identifier les défauts ou erreurs. Cette phase comprend les tests logiciels, l'analyse du code, la détection et la correction des bugs afin de garantir que le produit final atteint les normes de qualité établies.
+
+La différence entre un programmeur et un développeur peut être assez subtile, car les termes sont souvent utilisés de manière interchangeable, mais on peut faire quelques distinctions générales :
+
+Programmeur : Traditionnellement, ce terme se réfère souvent à quelqu'un qui écrit du code informatique, qui est principalement impliqué dans la création du code source pour des logiciels ou des applications. Les programmeurs se concentrent souvent sur la programmation en elle-même, en écrivant des lignes de code pour réaliser des fonctionnalités spécifiques.
+
+Développeur : Ce terme est plus large et peut englober divers aspects du processus de développement logiciel. Les développeurs peuvent être impliqués dans la conception logicielle, la programmation, les tests, la gestion de projet et d'autres aspects du cycle de vie d'un logiciel. Ainsi, un développeur peut être un programmeur qui écrit du code, mais il peut également être impliqué dans d'autres aspects du développement logiciel, comme la conception, l'architecture logicielle, les tests, voire même la gestion de projet.
+
+En somme, tous les programmeurs sont souvent des développeurs, mais tous les développeurs ne sont pas nécessairement des programmeurs. Le terme "développeur" est souvent utilisé de manière plus large pour englober les multiples aspects du processus de création de logiciels, tandis que "programmeur" est parfois considéré comme plus spécifique, se concentrant davantage sur l'écriture de code. Cependant, dans de nombreux contextes, ces termes sont utilisés de manière interchangeable en raison des similitudes entre les rôles.

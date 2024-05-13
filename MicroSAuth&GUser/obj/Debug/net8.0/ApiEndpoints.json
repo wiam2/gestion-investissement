@@ -80,6 +80,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MicroSAuth_GUser.Controllers.ApiRequestsController",
+    "Method": "GetNomByEmail",
+    "RelativePath": "api/ApiRequests/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "MicroSAuth_GUser.Controllers.test",
     "Method": "GetAllInvestisseurs",
     "RelativePath": "api/test/affichageInvestisseurs",

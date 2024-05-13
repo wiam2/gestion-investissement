@@ -12,6 +12,7 @@ import { PageGuard } from './guards/pageguard.guard';
 import {DeleteProfileComponent} from "./delete-profile/delete-profile.component";
 import {EditPosteComponent} from "./edit-poste/edit-poste.component";
 import {NotifiacationListComponent} from "./notifiacation-list/notifiacation-list.component";
+import { ConversationComponent } from './conversation/conversation.component';
 const routes: Routes = [
   {
     path:'',
@@ -37,10 +38,13 @@ const routes: Routes = [
     path:'profile/:id',
     component:ProfileComponent
   },
-  {
-    path:'chat',
-    component:ChatboxComponent
-  },
+  
+   
+      {path:'conversation', component:ConversationComponent ,children:[
+        {path:'chat/:email', component:ChatboxComponent}]}
+      
+      
+,
 
   {
     path:'deleteProfile',

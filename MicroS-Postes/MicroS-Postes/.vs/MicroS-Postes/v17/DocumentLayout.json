@@ -1,100 +1,104 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\",
+  "WorkspaceRootPath": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\dell\\desktop\\projet-microservices\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\controllers\\posteinvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\controllers\\posteinvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\migrations\\20240510201606_poste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\migrations\\20240510201606_poste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\controllers\\postestarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\controllers\\postestarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\repositories\\gestionposteinvestisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\repositories\\gestionposteinvestisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\entities\\postestartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\entities\\postestartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\repositories\\gestionpostestartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\repositories\\gestionpostestartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\dtos\\posteinvdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\dtos\\posteinvdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\entities\\poste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\entities\\poste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\entities\\posteinvestisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\entities\\posteinvestisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\services\\igestionposteinv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\services\\igestionposteinv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\controllers\\posteinvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\controllers\\posteinvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\controllers\\postestarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\controllers\\postestarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\repositories\\gestionposteinvestisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\repositories\\gestionposteinvestisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\entities\\postestartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\entities\\postestartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\repositories\\gestionpostestartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\repositories\\gestionpostestartup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\dtos\\posteinvdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\dtos\\posteinvdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\entities\\poste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\entities\\poste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\entities\\posteinvestisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\entities\\posteinvestisseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\services\\igestionposteinv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\services\\igestionposteinv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\repositories\\xgestionuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\repositories\\xgestionuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\repositories\\xgestionuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\repositories\\gestionposte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\repositories\\gestionposte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\repositories\\gestionposte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\micros-postes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\micros-postes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\micros-postes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\repositories\\gestionlike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\repositories\\gestionlike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\repositories\\gestionlike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_NP21SVQ_SQLEXPRESS/L2ServicePosteDB/True/SqlTable/dbo.Likes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\entities\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\entities\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\entities\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\migrations\\20240307151132_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\migrations\\20240307151132_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\migrations\\20240307151132_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\services\\igestionlike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\services\\igestionlike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\services\\igestionlike.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\controllers\\likescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\controllers\\likescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\controllers\\likescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\services\\igestionposte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\services\\igestionposte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\services\\igestionposte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\dtos\\postestardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\dtos\\postestardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\dtos\\postestardto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -110,24 +114,24 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307134638_First.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\services\\igestionpostestar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\services\\igestionpostestar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\services\\igestionpostestar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\micros-postes\\migrations\\20240312165840_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\migrations\\20240312165840_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\migrations\\20240312165840_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240507150943_b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:MicroS-Postes\\Migrations\\20240507150943_b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\micros-postes\\micros-postes\\micros-postes\\migrations\\20240507150943_b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{197F4690-DE18-483D-A1CE-382C9A11187F}|MicroS-Postes\\MicroS-Postes.csproj|solutionrelative:micros-postes\\migrations\\20240507150943_b.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -137,28 +141,52 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PosteInvController.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\PosteInvController.cs",
-              "RelativeDocumentMoniker": "MicroS-Postes\\Controllers\\PosteInvController.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\PosteInvController.cs",
-              "RelativeToolTip": "MicroS-Postes\\Controllers\\PosteInvController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwDMAAAANAAAA",
+              "Title": "20240510201606_poste.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240510201606_poste.cs",
+              "RelativeDocumentMoniker": "MicroS-Postes\\Migrations\\20240510201606_poste.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240510201606_poste.cs",
+              "RelativeToolTip": "MicroS-Postes\\Migrations\\20240510201606_poste.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-02T23:14:56.617Z",
+              "WhenOpened": "2024-05-10T20:16:06.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "PosteInvController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\PosteInvController.cs",
+              "RelativeDocumentMoniker": "MicroS-Postes\\Controllers\\PosteInvController.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\PosteInvController.cs",
+              "RelativeToolTip": "MicroS-Postes\\Controllers\\PosteInvController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-02T23:14:56.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PosteStarController.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\PosteStarController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\PosteStarController.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Controllers\\PosteStarController.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\PosteStarController.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\PosteStarController.cs",
               "RelativeToolTip": "MicroS-Postes\\Controllers\\PosteStarController.cs",
               "ViewState": "AQIAAEQAAAAAAAAAAAAswFcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -166,11 +194,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GestionPosteInvestisseur.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionPosteInvestisseur.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionPosteInvestisseur.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Repositories\\GestionPosteInvestisseur.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionPosteInvestisseur.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionPosteInvestisseur.cs",
               "RelativeToolTip": "MicroS-Postes\\Repositories\\GestionPosteInvestisseur.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAmwDUAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -178,11 +206,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PosteStartup.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\PosteStartup.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\PosteStartup.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Entities\\PosteStartup.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\PosteStartup.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\PosteStartup.cs",
               "RelativeToolTip": "MicroS-Postes\\Entities\\PosteStartup.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -190,11 +218,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "GestionPosteStartup.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionPosteStartup.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionPosteStartup.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Repositories\\GestionPosteStartup.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionPosteStartup.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionPosteStartup.cs",
               "RelativeToolTip": "MicroS-Postes\\Repositories\\GestionPosteStartup.cs",
               "ViewState": "AQIAAIUAAAAAAAAAAAAmwIkAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -202,11 +230,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PosteInvDTO.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\DTOs\\PosteInvDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\DTOs\\PosteInvDTO.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\DTOs\\PosteInvDTO.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\DTOs\\PosteInvDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\DTOs\\PosteInvDTO.cs",
               "RelativeToolTip": "MicroS-Postes\\DTOs\\PosteInvDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -214,11 +242,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "PosteInvestisseur.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\PosteInvestisseur.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\PosteInvestisseur.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Entities\\PosteInvestisseur.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\PosteInvestisseur.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\PosteInvestisseur.cs",
               "RelativeToolTip": "MicroS-Postes\\Entities\\PosteInvestisseur.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -226,11 +254,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Poste.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\Poste.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\Poste.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Entities\\Poste.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\Poste.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\Poste.cs",
               "RelativeToolTip": "MicroS-Postes\\Entities\\Poste.cs",
               "ViewState": "AQIAAAcAAACAmZmZmZkhwAkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -238,11 +266,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "IGestionPosteInv.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionPosteInv.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionPosteInv.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Services\\IGestionPosteInv.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionPosteInv.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionPosteInv.cs",
               "RelativeToolTip": "MicroS-Postes\\Services\\IGestionPosteInv.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -250,23 +278,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\appsettings.json",
               "RelativeDocumentMoniker": "MicroS-Postes\\appsettings.json",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\appsettings.json",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\appsettings.json",
               "RelativeToolTip": "MicroS-Postes\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-03-02T16:38:04.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "20240507150943_b.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240507150943_b.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240507150943_b.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Migrations\\20240507150943_b.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240507150943_b.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240507150943_b.cs",
               "RelativeToolTip": "MicroS-Postes\\Migrations\\20240507150943_b.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -274,11 +302,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Program.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Program.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Program.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Program.cs",
               "RelativeToolTip": "MicroS-Postes\\Program.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAAADIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -286,11 +314,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MicroS-Postes\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Properties\\launchSettings.json",
               "RelativeToolTip": "MicroS-Postes\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -298,20 +326,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "dbo.Likes [Donn\u00E9es]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_NP21SVQ_SQLEXPRESS/L2ServicePosteDB/True/SqlTable/dbo.Likes.sql",
-              "ToolTip": "dbo.Likes [Donn\u00E9es]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-12T17:23:43.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "XGestionUser.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\XGestionUser.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\XGestionUser.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Repositories\\XGestionUser.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\XGestionUser.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\XGestionUser.cs",
               "RelativeToolTip": "MicroS-Postes\\Repositories\\XGestionUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -319,11 +338,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "GestionPoste.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionPoste.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionPoste.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Repositories\\GestionPoste.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionPoste.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionPoste.cs",
               "RelativeToolTip": "MicroS-Postes\\Repositories\\GestionPoste.cs",
               "ViewState": "AQIAAAAAAABAMzMzMzMbwAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -331,11 +350,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "20240312165840_second.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240312165840_second.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240312165840_second.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Migrations\\20240312165840_second.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240312165840_second.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240312165840_second.cs",
               "RelativeToolTip": "MicroS-Postes\\Migrations\\20240312165840_second.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -343,11 +362,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "20240307151132_First.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307151132_First.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307151132_First.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Migrations\\20240307151132_First.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307151132_First.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307151132_First.cs",
               "RelativeToolTip": "MicroS-Postes\\Migrations\\20240307151132_First.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -355,59 +374,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "20240307145500_First.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307145500_First.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307145500_First.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307145500_First.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307145500_First.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307145500_First.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307145500_First.cs",
               "ViewState": "AQIAAAQAAABwMTMzMzMbwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T14:55:01.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "20240307135048_First.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307135048_First.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307135048_First.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307135048_First.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307135048_First.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307135048_First.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307135048_First.cs",
               "ViewState": "AQIAAAcAAAAwMjMzMzMvwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T13:50:48.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "20240307134942_First.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307134942_First.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307134942_First.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307134942_First.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307134942_First.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307134942_First.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307134942_First.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T13:49:42.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "20240307134638_First.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307134638_First.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307134638_First.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307134638_First.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307134638_First.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307134638_First.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Dell\\Desktop\\MicroProjet2024\\MicroS-Postes\\MicroS-Postes\\Migrations\\20240307134638_First.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-07T13:46:38.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "LikesController.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\LikesController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\LikesController.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Controllers\\LikesController.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\LikesController.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\LikesController.cs",
               "RelativeToolTip": "MicroS-Postes\\Controllers\\LikesController.cs",
               "ViewState": "AQIAAAsAAAAAMTMzMzMvwBIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -415,11 +434,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "GestionLike.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionLike.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionLike.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Repositories\\GestionLike.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionLike.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Repositories\\GestionLike.cs",
               "RelativeToolTip": "MicroS-Postes\\Repositories\\GestionLike.cs",
               "ViewState": "AQIAAEoAAAAAAAAAAAAAwFgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -427,11 +446,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "PosteStarDTO.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\DTOs\\PosteStarDTO.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\DTOs\\PosteStarDTO.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\DTOs\\PosteStarDTO.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\DTOs\\PosteStarDTO.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\DTOs\\PosteStarDTO.cs",
               "RelativeToolTip": "MicroS-Postes\\DTOs\\PosteStarDTO.cs",
               "ViewState": "AQIAAA4AAABgzMzMzMwywBYAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -439,11 +458,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "IGestionPoste.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionPoste.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionPoste.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Services\\IGestionPoste.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionPoste.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionPoste.cs",
               "RelativeToolTip": "MicroS-Postes\\Services\\IGestionPoste.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -451,11 +470,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "IGestionPosteStar.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionPosteStar.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionPosteStar.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Services\\IGestionPosteStar.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionPosteStar.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionPosteStar.cs",
               "RelativeToolTip": "MicroS-Postes\\Services\\IGestionPosteStar.cs",
               "ViewState": "AQIAAAIAAACAMTMzMzMLwAkAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -463,11 +482,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "IGestionLike.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionLike.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionLike.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Services\\IGestionLike.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionLike.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Services\\IGestionLike.cs",
               "RelativeToolTip": "MicroS-Postes\\Services\\IGestionLike.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -475,11 +494,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MicroS-Postes.csproj",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes.csproj",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes.csproj",
               "RelativeDocumentMoniker": "MicroS-Postes\\MicroS-Postes.csproj",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes.csproj",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes.csproj",
               "RelativeToolTip": "MicroS-Postes\\MicroS-Postes.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -487,11 +506,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Data\\DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Data\\DataContext.cs",
               "RelativeToolTip": "MicroS-Postes\\Data\\DataContext.cs",
               "ViewState": "AQIAAAMAAABAMTMzMzMbwAYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -499,11 +518,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Like.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\Like.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\Like.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Entities\\Like.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\Like.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Entities\\Like.cs",
               "RelativeToolTip": "MicroS-Postes\\Entities\\Like.cs",
               "ViewState": "AQIAAAIAAAAAZmZmZmYkwAkAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -511,11 +530,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "MicroS-Postes\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAwAAACg/f///z8pwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -523,15 +542,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "MicroS-Postes\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\dell\\Desktop\\projet-microservices\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\WeatherForecast.cs",
               "RelativeToolTip": "MicroS-Postes\\WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-02T16:23:10.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dbo.Likes [Donn\u00E9es]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_NP21SVQ_SQLEXPRESS/L2ServicePosteDB/True/SqlTable/dbo.Likes.sql",
+              "ToolTip": "dbo.Likes [Donn\u00E9es]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-03-12T17:23:43.234Z"
             }
           ]
         }
