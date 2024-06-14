@@ -142,6 +142,23 @@ namespace MicroSAuth_GUser.Repositories
                 );
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-      
+
+public async Task<(string, string)> GetUserRoleAndEmailAsync(string userId)
+        {
+            var user = await userManager.FindByIdAsync(userId);
+            if (user != null)
+            {
+                var roles = await userManager.GetRolesAsync(user);
+                var role = roles.FirstOrDefault();
+                var email = user.Email;
+                return (role, email);
+            }
+            else
+            {
+                // Si l'utilisateur n'est pas trouvé, vous pouvez renvoyer des valeurs par défaut ou null.
+                return (null, null);
+            }
+        }
+
     }
 }

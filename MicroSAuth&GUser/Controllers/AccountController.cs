@@ -82,6 +82,18 @@ namespace MicroSAuth_GUser.Controllers
 
             return (jwt, expires);
         }
-
+        [HttpGet("getINFO/{id}")]
+        public async Task<IActionResult> GetUserRoleAndEmail(string id)
+        {
+            var (role, email) = await userAccount.GetUserRoleAndEmailAsync(id);
+            if (role != null && email != null)
+            {
+                return Ok(new { Role = role, Email = email });
+            }
+            else
+            {
+                return NotFound(); // Ou BadRequest() selon votre logique d'erreur
+            }
+        }
     }
 }

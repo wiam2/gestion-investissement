@@ -1,0 +1,92 @@
+ID_User,ID_Poste,Titre,Secteur
+IDO14,355,Innovation dans le domaine de la sante numerique,Sante
+IDO8,369,Technologie de detection des fuites d eau pour une gestion efficiente des ressources,energie 
+IDO8,24,Innovation dans les solutions de stockage d energie e base de batteries,energie
+IDO4,432,Plateforme de financement participatif pour les projets artistiques et culturels,Finance
+IDO12,744,Intelligence artificielle pour la gestion de l energie,energie
+IDO9,307,Innovation dans les vehicules electriques autonomes pour une mobilite durable,Industrie
+IDO2,448,Innovation dans les materiaux de construction ecologiques et recyclables,Biotechnologie 
+IDO18,931,Plateforme de crowdfunding pour les projets artistiques et culturels,Technologie
+IDO2,737,Revolution dans la production alimentaire avec la biotechnologie cellulaire,Biotechnologie
+IDO2,236,Technologie de surveillance de la qualite de l air pour les villes intelligentes,Biotechnologie
+IDO14,771,Technologie de surveillance de la qualite de l air pour les villes intelligentes,Sante
+IDO14,441,Plateforme de sante mentale en ligne pour le bien-etre emotionnel,Sante
+IDO4,44,Technologie blockchain pour la finance decentralisee,Finance
+IDO14,797,Technologie de purification de l air pour des environnements interieurs sains,Sante
+IDO11,599,Technologie de bioimpression 3D pour la medecine regenerative,Sante
+IDO30,871,Plateforme de covoiturage electrique pour des deplacements urbains ecologiques,Sante
+IDO1,256,Plateforme de partage de competences pour l economie du partage,Biotechnologie
+IDO1,590,Plateforme de crowdfunding pour les projets artistiques et culturels,Biotechnologie
+IDO4,583,Plateforme de commerce electronique equitable pour les artisans locaux,Finance
+IDO4,890,Technologie blockchain pour la finance decentralisee,Finance 
+IDO18,104,Plateforme de partage de repas pour lutter contre le gaspillage alimentaire,Technologie
+IDO14,911,Plateforme de pret entre pairs pour le financement de projets durables,Immobilier
+IDO8,504,Developpement de la prochaine generation de batteries ecologiques,energie 
+IDO9,798,Innovation dans le domaine de la sante numerique,Industrie
+IDO1,450,Developpement de la prochaine generation de batteries ecologiques,Biotechnologie
+IDO5,987,Innovation dans les materiaux de construction ecologiques et recyclables,Biotechnologie
+IDO30,198,Technologie de traitement des dechets plastiques pour une economie circulaire,Sante
+IDO18,949,Reinvention de l education avec des technologies d apprentissage immersif,Technologie
+IDO31,532,Innovation dans les materiaux de construction ecologiques et recyclables,Finance
+IDO6,679,Technologie de realite augmentee pour l apprentissage interactif,Technologie
+IDO16,351,Innovation dans les materiaux d emballage biodegradables,Immobilier
+IDO16,516,Technologie de reconnaissance faciale pour la securite et la confidentialite,Immobilier
+IDO16,624,Reinvention de l education avec des technologies d apprentissage immersif,Immobilier
+IDO9,392,Plateforme d analyse de donnees pour l optimisation des processus industriels,Industrie
+IDO30,709,Plateforme de sante mentale en ligne pour le bien-etre emotionnel,Sante
+IDO30,83,Plateforme d analyse de donnees pour l optimisation des processus industriels,Industrie
+IDO6,43,Technologie de detection des fuites d eau pour une gestion efficiente des ressources,Technologie
+IDO31,974,Plateforme de financement participatif pour les initiatives sociales et solidaires,Finance
+IDO11,559,Innovation dans les energies marines renouvelables,energie 
+IDO13,246,Innovation dans les drones agricoles pour l agriculture de precision,Immobilier
+IDO13,530,Plateforme de location de vetements pour une mode durable,Immobilier
+IDO18,604,Technologie de surveillance de la qualite de l air pour les villes intelligentes, Technologie
+IDO32,742,Innovation dans les technologies de desalinisation pour l acces e l eau potable,Sante
+IDO18,313,Technologie de reconnaissance faciale pour la securite et la confidentialite,Technologie
+IDO23,132,Plateforme de sante mentale en ligne pour le bien-etre emotionnel,Technologie
+IDO32,30,Plateforme de formation en ligne pour le developpement des competences numeriques,Sante
+IDO11,929,Plateforme d investissement participatif dans les projets d energies renouvelables,energie
+IDO7,70,Plateforme de crowdfunding immobilier pour l investissement participatif,Immobilier 
+IDO19,92,Innovation dans le domaine de la sante numerique,sante
+IDO30,761,Plateforme d analyse de donnees pour l optimisation des processus industriels,Industrie
+IDO23,51,Innovation dans les materiaux d emballage biodegradables,Technologie
+IDO5,411,Innovation dans les technologies de captage et de stockage du carbone,Biotechnologie
+IDO3,52,Plateforme de location de voitures electriques pour des deplacements urbains verts,Technologie
+IDO3,741,Technologie de reconnaissance faciale pour la securite et la confidentialite,Technologie
+IDO3,583,Plateforme de crowdfunding pour les projets artistiques et culturels,Technologie
+IDO31,485,Innovation dans les technologies de captage et de stockage du carbone ,Finance
+IDO7,690,Plateforme de formation en ligne pour le developpement des competences numeriques,Immobilier
+IDO4,53,Plateforme de financement participatif pour les initiatives sociales et solidaires,Finance
+IDO23,261,Developpement de la prochaine generation de batteries ecologiques,Biotechnologie
+IDO31,253,Plateforme de finance participative pour les projets durables,Finance  
+IDO7,207,Plateforme de vente en ligne de produits ecologiques et durables,Immobilier
+IDO19,252,Biotechnologie pour la sante et le bien-etre,Sante
+IDO15,625,Innovation dans les energies marines renouvelables,energie
+IDO20,632,Innovation dans le domaine de la sante numerique et physique,Industrie
+IDO15,934,Technologie de pointe pour l agriculture de precision et la gestion des ressources naturelles,energie 
+IDO34,817,Innovation dans les technologies de desalinisation pour l acces e l eau potable facilement,Immobilier
+IDO8,16,Plateforme d analyse de donnees pour l amelioration rapide  des performances sportives ,Finance
+IDO19,848,Plateforme de sante  en ligne pour le bien-etre emotionnel et mentale,Sante
+IDO10,874,Des solutions de recyclage des textiles usages,Technologie
+IDO8,59,Plateforme de financement participatif pour les initiatives sociales et solidaires,Finance
+IDO21,184,Plateforme de logistique intelligente pour une chaene d approvisionnement au long terme,Technologie
+IDO17,608,Innovation dans les vehicules electriques autonomes,energie 
+IDO19,258,Innovation pour la sante numerique,Sante 
+IDO23,715,Plateforme d analyse de donnees pour l amelioration des performances durable sportives,Biotechnologie
+IDO33,518,Gestion de l energie domestique pour une consommation responsable,Immobilier
+IDO20,654,Plateforme de sante mentale  et physique en ligne pour le bien-etre emotionnel,Sante
+IDO24,110,Plateforme de partage de repas pour lutter contre la famine,Technologie
+IDO33,795,Plateforme  de vetements pour une mode durable,Immobilier
+IDO5,3,Technologie de detection des fuites d eau pour une gestion efficiente des ressources naturelle ,Biotechnologie
+IDO21,572,Technologie de realite virtuelle pour la rehabilitation medicale,Technologie
+IDO17,266,Innovation dans les solutions de stockage d energie e base de batteries puissants,energie
+IDO8,622,Technologies de captage et de stockage du carbone,Biotechnologie
+IDO5,685,Les materiaux d emballage biodegradables,Biotechnologie
+IDO20,315,Innovation dans les technologies de desalinisation pour l acces efficace e l eau potable,Sante
+IDO22,916,Technologie de bioimpression 3D pour la medecine regenerative,Technologie
+IDO20,149,Technologie pour la securite et la confidentialite,Industrie
+IDO20,6,La production alimentaire avec la biotechnologie cellulaire,Sante
+IDO20,220,Innovation dans le domaine de la sante,Sante 
+IDO5,191,Biotechnologie sous marine pour la decouverte de nouveaux medicaments,Biotechnologie
+IDO9,439,Innovation dans les technologies de stockage d energie a base de graphene,Immobilier
+IDO8,330,Plateforme de partage de ressources pour les petites entreprises,Finance

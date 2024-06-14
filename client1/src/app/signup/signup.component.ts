@@ -20,13 +20,13 @@ export class SignupComponent implements OnInit {
     this.parentHeight = 'auto';
   }
 
-  choix: string|null = null;
-  User : user = new user();
-  Investisseur: Investisseur  = new Investisseur();
+  choix: string | null = null;
+  User: user = new user();
+  Investisseur: Investisseur = new Investisseur();
   saveSuccess: boolean = false;
-  Startup :Startup = new Startup();
+  Startup: Startup = new Startup();
 
-  constructor(private invesstisseurService: InvestisseurService, private startupservice:StartupService, private router: Router) {
+  constructor(private invesstisseurService: InvestisseurService, private startupservice: StartupService, private router: Router) {
   }
 
   ngOnInit(): void {
@@ -41,6 +41,7 @@ export class SignupComponent implements OnInit {
       data => {
         console.log(data);
         this.saveSuccess = true;
+        this.router.navigate(['/login']);
       },
       error => {
         console.log(error);
@@ -48,7 +49,7 @@ export class SignupComponent implements OnInit {
     )
   }
   CreateStarup() {
-    this.startupservice. CreateStartup(this.Startup).subscribe(
+    this.startupservice.CreateStartup(this.Startup).subscribe(
       data => {
         console.log(data);
         this.saveSuccess = true;

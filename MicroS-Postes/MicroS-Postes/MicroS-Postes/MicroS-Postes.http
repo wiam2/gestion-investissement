@@ -1,0 +1,6 @@
+@MicroS_Postes_HostAddress = http://localhost:5198
+
+GET {{MicroS_Postes_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

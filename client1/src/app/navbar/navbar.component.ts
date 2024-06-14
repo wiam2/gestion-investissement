@@ -26,7 +26,7 @@ export class NavbarComponent {
 
   }
   mychat(){
-    this.router.navigate(['./chat']);
+    this.router.navigate(['./conversation']);
 
   }
 

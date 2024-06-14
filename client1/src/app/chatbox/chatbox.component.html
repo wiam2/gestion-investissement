@@ -1,153 +1,76 @@
-<main>
-  <div class="sideNav1">
 
-    <li class="active"><i class="bi bi-chat-dots"></i></li>
-    <li><i class="bi bi-telephone-fill"></i></li>
-    <li><i class="bi bi-house-fill"></i></li>
-    <li><i class="bi bi-box-arrow-right"></i></li>
-
-
-
-  </div>
-  <div class="sideNav2">
-    <div class="SideNavhead">
-      <h2>Chats</h2>
-      <i class="bi bi-funnel-fill"></i>
-      <i class="bi bi-person-fill-add"></i>
-
-    </div>
-    <div class="SearchInputHolder">
-      <i class="fa-solid fa-magnifying-glass"></i>
-      <input class="searchInput" placeholder="Search For Chat..">
-
-      <hr>
-    </div>
-
-    <li class="group">
-      <div class="avatar"><i class="bi bi-person-circle"></i></div>
-      <p class="GroupName">David Johnson</p>
-      <p class="GroupDescrp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earujdsajf djf df dfjdkj
-        dlkjfl.kjl dlkjf lkjlkdjfm, sequi.</p>
-    </li>
-    <li class="group">
-      <div class="avatar"><i class="bi bi-person-circle"></i></div>
-      <p class="GroupName">David Johnson</p>
-      <p class="GroupDescrp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earujdsajf djf df dfjdkj
-        dlkjfl.kjl dlkjf lkjlkdjfm, sequi.</p>
-    </li>
-
-
-    <li class="group">
-      <div class="avatar"><i class="bi bi-person-circle"></i></div>
-      <p class="GroupName">David Johnson</p>
-      <p class="GroupDescrp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earujdsajf djf df dfjdkj
-        dlkjfl.kjl dlkjf lkjlkdjfm, sequi.</p>
-    </li>
-    <li class="group">
-      <div class="avatar"><i class="bi bi-person-circle"></i></div>
-      <p class="GroupName">David Johnson</p>
-      <p class="GroupDescrp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earujdsajf djf df dfjdkj
-        dlkjfl.kjl dlkjf lkjlkdjfm, sequi.</p>
-    </li>
-    <li class="group">
-      <div class="avatar"><i class="bi bi-person-circle"></i></div>
-      <p class="GroupName">David Johnson</p>
-      <p class="GroupDescrp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earujdsajf djf df dfjdkj
-        dlkjfl.kjl dlkjf lkjlkdjfm, sequi.</p>
-    </li>
-    <li class="group">
-      <div class="avatar"><i class="bi bi-person-circle"></i></div>
-      <p class="GroupName">David Johnson</p>
-      <p class="GroupDescrp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earujdsajf djf df dfjdkj
-        dlkjfl.kjl dlkjf lkjlkdjfm, sequi.</p>
-    </li>
-
-
-  </div>
-  <section class="Chat">
+<section  class="Chat">
     <div class="ChatHead">
       <li class="group">
         <div class="avatar"><i class="bi bi-person-circle"></i></div>
-        <p class="GroupName">David Johnson</p>
+        <p class="GroupName">{{this.route.snapshot.params["email"]}}</p>
+        
 
       </li>
-      <div class="callGroup"  (click)="startVideoCall()">
+      <div class="callGroup">
         <i class="bi bi-telephone-fill"></i>
         <i class="bi bi-camera-video-fill"></i>
 
       </div>
     </div>
-    <div class="MessageContainer">
-
-      <div class="messageSeperator">Yesterday</div>
-      <div class="message me">
-        <p class="messageContent">Hello!</p>
-        <div class="messageDetails">
-          <div class="messageTime">3:21 PM</div>
-          <i class="fa-solid fa-check"></i>
+    <div   class="MessageContainer" *ngFor="let message of  this.chatService.messages$ | async">
+      <div #scrollMe 
+      [ngClass]="{'incoming_msg': message.user != me, 'outgoing_msg': message.user === me}">
+      <div *ngIf="message.user != me" class="incoming_msg_img">
+      
+      </div>
+      <div *ngIf="message.typemessage === 'message'">
+      
+      <div *ngIf="message.user != me" class="message you">
+        <div class="received_withd_msg">
+          <p class="messageContent"> {{message.message}}</p>
+          <div class="messageDetails">{{message.user}} | {{message.messageTime | date: 'medium'}}<div class="messageTime">3:21 PM</div>
+          <i class="fa-solid fa-check"></i></div>
+          
         </div>
       </div>
-      <div class="message me">
-        <p class="messageContent">How are You!</p>
+      <div *ngIf="message.user === me" class="message me">
+        <p class="messageContent">{{message.message}}</p>
         <div class="messageDetails">
-          <div class="messageTime">3:22 PM</div>
+          <div class="messageTime"> {{message.user}} | {{message.messageTime | date: 'medium'}}</div>
           <i class="fa-solid fa-check"></i>
         </div>
-      </div>
-      <div class="message you">
-        <p class="messageContent">I'm Fine!</p>
-        <div class="messageDetails">
-          <div class="messageTime">3:30 PM</div>
-          <i class="fa-solid fa-check"></i>
-        </div>
-      </div>
-      <div class="message you">
-        <p class="messageContent">How are You!</p>
-        <div class="messageDetails">
-          <div class="messageTime">3:32 PM</div>
-          <i class="fa-solid fa-check"></i>
-        </div>
-      </div>
-      <div class="message me">
-        <p class="messageContent">I'm also Fine!</p>
-        <div class="messageDetails">
-          <div class="messageTime">3:36 PM</div>
-          <i class="fa-solid fa-check"></i>
-        </div>
-      </div>
-      <div class="message me">
-        <p class="messageContent">Send Me the Pics!</p>
-        <div class="messageDetails">
-          <div class="messageTime">3:21 PM</div>
-          <i class="fa-solid fa-check"></i>
-        </div>
-      </div>
-      <div class="messageSeperator">Today</div>
-      <div class="message you">
-        <p class="messageContent">Sorry for the Delay!</p>
-        <div class="messageDetails">
-          <div class="messageTime">8:09 AM</div>
-          <i class="fa-solid fa-check"></i>
-        </div>
-      </div>
-      <div class="message you">
-        <p class="messageContent">Here are Pics!</p>
-        <div class="messageDetails">
-          <div class="messageTime">3:21 AM</div>
-          <i class="fa-solid fa-check"></i>
-        </div>
+        
       </div>
     </div>
+    <div *ngIf="message.typemessage === 'fichier'">
+      <div *ngIf="message.user != me" class="received_file">
+       
+        <a (click)="generateDownload1Link(message.message)" >
+          <p>{{message.message}}</p>
+        </a>
+          <span class="time_date ">{{message.user}} | {{message.messageTime | date: 'medium'}}</span>
+       
+      </div>
+      <div *ngIf="message.user === me" class="sent_file">
+       
+        <a (click)=" generateDownload1Link(message.message)" >
+          <p>{{message.message}}</p>
+        </a>
+        <span class="time_date ">{{message.user}} | {{message.messageTime | date: 'medium'}}</span>
+      </div>
+      </div>
+    </div>
+     
+    </div>
     <form id="MessageForm">
-      <input type="text" id="MessageInput">
-      <button class="Send"><i class="bi bi-send-fill"></i></button>
-      <input type="file" accept="image/*" id="image" name="image" style="display:none;">
-      <button class="Send" onclick="document.getElementById('image').click();">
-        <i class="bi bi-paperclip"></i>
+      <input [(ngModel)]="this.inputMessage" name="inputmessage" type="text" >
+      <button class="Send" (click)="send()">
+        <i class="bi bi-send-fill"></i>
       </button>
+      <label class="Send">
+        <input type="file" accept="image/*" id="image" name="image" style="display:none;" (change)="onFileSelected($event)">
+        <i class="bi bi-paperclip"></i>
+      </label>
 
+     
     </form>
   </section>
-</main>
+
 
 

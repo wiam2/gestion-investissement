@@ -1,0 +1,404 @@
+[
+  {
+    "ContainingType": "MicroS_Postes.Controllers.LikesController",
+    "Method": "Addlike",
+    "RelativePath": "api/Likes/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUser",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idPoste",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.LikesController",
+    "Method": "GetLikes",
+    "RelativePath": "api/Likes/Alllikes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.LikesController",
+    "Method": "Deletelike",
+    "RelativePath": "api/Likes/Delete/{iduser}/{idposte}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iduser",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "idposte",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
+    "Method": "GetAllPostes",
+    "RelativePath": "api/PosteInv/AllPostes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
+    "Method": "GetAllPostesDecsending",
+    "RelativePath": "api/PosteInv/AllPostesDecsending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
+    "Method": "CreatePosteInvs",
+    "RelativePath": "api/PosteInv/CreatePoste",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "poste",
+        "Type": "MicroS_Postes.DTOs.PosteInvDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
+    "Method": "DeletePosteInv",
+    "RelativePath": "api/PosteInv/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
+    "Method": "GetInvestisseurById",
+    "RelativePath": "api/PosteInv/getInvestisseurById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
+    "Method": "GetPosteInvestisseurById",
+    "RelativePath": "api/PosteInv/getPosteById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
+    "Method": "GetStartupByUserId",
+    "RelativePath": "api/PosteInv/getPosteByUserId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
+    "Method": "GetPostesInvZero",
+    "RelativePath": "api/PosteInv/PostesInvestisseurZero",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
+    "Method": "GetPostesInvZeroDecsending",
+    "RelativePath": "api/PosteInv/PostesInvestisseurZeroDecsending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
+    "Method": "XGetRecomInvPostesById",
+    "RelativePath": "api/PosteInv/RecomInvPosteById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
+    "Method": "UpdatePosteInvestisseur",
+    "RelativePath": "api/PosteInv/UpdatePoste/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "poste",
+        "Type": "MicroS_Postes.DTOs.PosteInvDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteInvController",
+    "Method": "ValiderPoste",
+    "RelativePath": "api/PosteInv/ValiderPoste/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteStarController",
+    "Method": "GetAllPostes",
+    "RelativePath": "api/PosteStar/AllPostes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteStarController",
+    "Method": "GetAllPostesDecsending",
+    "RelativePath": "api/PosteStar/AllPostesDecsending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteStarController",
+    "Method": "CreatePosteStars",
+    "RelativePath": "api/PosteStar/CreatePoste",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "poste",
+        "Type": "MicroS_Postes.DTOs.PosteStarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteStarController",
+    "Method": "DeletePosteStar",
+    "RelativePath": "api/PosteStar/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteStarController",
+    "Method": "GetStartupById",
+    "RelativePath": "api/PosteStar/getPosteById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteStarController",
+    "Method": "GetStartupByUserId",
+    "RelativePath": "api/PosteStar/getPosteByUserId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteStarController",
+    "Method": "GetPostesStartupZero",
+    "RelativePath": "api/PosteStar/PostesStartupZero",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteStarController",
+    "Method": "GetPostesInvZeroDecsending",
+    "RelativePath": "api/PosteStar/PostesStartupZeroDecsending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteStarController",
+    "Method": "XGetRecomStartupPostesById",
+    "RelativePath": "api/PosteStar/RecomtartupPosteById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteStarController",
+    "Method": "UpdatePosteStartup",
+    "RelativePath": "api/PosteStar/UpdatePoste/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "poste",
+        "Type": "MicroS_Postes.DTOs.PosteStarDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.PosteStarController",
+    "Method": "ValiderPoste",
+    "RelativePath": "api/PosteStar/ValiderPoste/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroS_Postes.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MicroS_Postes.WeatherForecast, MicroS-Postes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

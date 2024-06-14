@@ -16,12 +16,13 @@ export class ValidateModalSevice{
                 @Inject(DOCUMENT) private document:Document
     ) {
     }
-    open(content :TemplateRef<any>){
+    open(content :TemplateRef<any>,id:number){
         const modalComponentFactory=this.resolver.resolveComponentFactory(ValidatePosteComponent)
         const contentViewRef=content.createEmbeddedView(null)
         const modalComponent = modalComponentFactory.create(this.injector,[
             contentViewRef.rootNodes,
         ]);
+        modalComponent.instance.idPoste=id;
         modalComponent.instance.closeEvent.subscribe(()=>
             this.closeModal());
         modalComponent.instance.submitEvent.subscribe(()=>

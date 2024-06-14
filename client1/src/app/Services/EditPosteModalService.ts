@@ -11,18 +11,22 @@ import {EditPosteComponent} from "../edit-poste/edit-poste.component";
     providedIn: 'root'
 })
 export class EditPosteModalService{
+    
     private modalNotifier?:Subject<string>
     constructor(private resolver:ComponentFactoryResolver,
                 private injector:Injector,
                 @Inject(DOCUMENT) private document:Document
     ) {
     }
-    open(content :TemplateRef<any>){
+    
+    open(content :TemplateRef<any>,poste:any){
         const modalComponentFactory=this.resolver.resolveComponentFactory(EditPosteComponent)
         const contentViewRef=content.createEmbeddedView(null)
         const modalComponent = modalComponentFactory.create(this.injector,[
             contentViewRef.rootNodes,
         ]);
+        modalComponent.instance.poste=poste;
+        console.log(poste);
         modalComponent.instance.closeEvent.subscribe(()=>
             this.closeModal());
         modalComponent.instance.submitEvent.subscribe(()=>

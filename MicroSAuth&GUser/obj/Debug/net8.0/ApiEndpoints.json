@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "MicroSAuth_GUser.Controllers.AccountController",
+    "Method": "GetUserRoleAndEmail",
+    "RelativePath": "api/Account/getINFO/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroSAuth_GUser.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/Account/login",
     "HttpMethod": "POST",
@@ -62,6 +78,32 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroSAuth_GUser.Controllers.ApiRequestsController",
+    "Method": "GetNomByEmail",
+    "RelativePath": "api/ApiRequests/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "MicroSAuth_GUser.Controllers.test",

@@ -1,0 +1,333 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\hub\\messagehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:hub\\messagehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\hub\\conversationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:hub\\conversationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\controllers\\conversationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:controllers\\conversationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\models\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:models\\conversation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\controllers\\fichiercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:controllers\\fichiercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\controllers\\hubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:controllers\\hubcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\controllers\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:controllers\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\I511\\source\\repos\\MicroServiceMessagerie\\Migrations\\20240307205245_sec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\I511\\source\\repos\\MicroServiceMessagerie\\Migrations\\20240307145454_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|c:\\users\\i511\\onedrive\\bureau\\linkagemessage\\gestion-investissement\\microservicemessagerie\\migrations\\20240307205532_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94E72E6E-447B-40AE-A4C5-CF6164A36F1D}|MicroServiceMessagerie.csproj|solutionrelative:migrations\\20240307205532_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 21,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FichierController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Controllers\\FichierController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FichierController.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Controllers\\FichierController.cs",
+              "RelativeToolTip": "Controllers\\FichierController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T23:32:07.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConversationService.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Hub\\ConversationService.cs",
+              "RelativeDocumentMoniker": "Hub\\ConversationService.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Hub\\ConversationService.cs",
+              "RelativeToolTip": "Hub\\ConversationService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwGoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T15:48:54.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConversationController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Controllers\\ConversationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ConversationController.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Controllers\\ConversationController.cs",
+              "RelativeToolTip": "Controllers\\ConversationController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T15:48:05.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "hubController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Controllers\\hubController.cs",
+              "RelativeDocumentMoniker": "Controllers\\hubController.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Controllers\\hubController.cs",
+              "RelativeToolTip": "Controllers\\hubController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T16:47:14.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "test.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Controllers\\test.cs",
+              "RelativeDocumentMoniker": "Controllers\\test.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Controllers\\test.cs",
+              "RelativeToolTip": "Controllers\\test.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T02:13:46.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T01:56:56.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAC8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-11T21:33:41.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240307205532_first.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Migrations\\20240307205532_first.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240307205532_first.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Migrations\\20240307205532_first.cs",
+              "RelativeToolTip": "Migrations\\20240307205532_first.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T20:55:32.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240307205245_sec.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\source\\repos\\MicroServiceMessagerie\\Migrations\\20240307205245_sec.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\MicroServiceMessagerie\\Migrations\\20240307205245_sec.cs",
+              "ToolTip": "C:\\Users\\I511\\source\\repos\\MicroServiceMessagerie\\Migrations\\20240307205245_sec.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\MicroServiceMessagerie\\Migrations\\20240307205245_sec.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T20:52:45.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240307145454_first.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\source\\repos\\MicroServiceMessagerie\\Migrations\\20240307145454_first.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\MicroServiceMessagerie\\Migrations\\20240307145454_first.cs",
+              "ToolTip": "C:\\Users\\I511\\source\\repos\\MicroServiceMessagerie\\Migrations\\20240307145454_first.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\MicroServiceMessagerie\\Migrations\\20240307145454_first.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T14:54:54.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MessageController.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "Controllers\\MessageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T13:30:05.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Controllers\\ChatController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T13:30:02.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T12:23:08.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "Models\\Message.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Models\\Message.cs",
+              "RelativeToolTip": "Models\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T12:14:05.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Conversation.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Models\\Conversation.cs",
+              "RelativeDocumentMoniker": "Models\\Conversation.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Models\\Conversation.cs",
+              "RelativeToolTip": "Models\\Conversation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T12:14:00.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T12:13:51.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "messageHub.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Hub\\messageHub.cs",
+              "RelativeDocumentMoniker": "Hub\\messageHub.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Hub\\messageHub.cs",
+              "RelativeToolTip": "Hub\\messageHub.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAlwGAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T12:13:44.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAADKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T12:13:39.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAIwBIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-06T12:12:34.494Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

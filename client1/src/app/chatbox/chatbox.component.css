@@ -126,6 +126,7 @@ section {
   border: 1px solid #ffffff21;
 
   overflow: auto;
+ 
 }
 
 .SearchInputHolder {
@@ -399,4 +400,81 @@ section {
   border-radius:20px ;
   width:fit-content;
   background-color: #120F4D;
+}
+.received_file {
+  float: left;
+  width: 46%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #b9277578;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+.received_file p {
+  border: 1px solid #000;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.received_file .file_msg {
+  float: left;
+  font-size: 12px;
+  color: #888;
+  margin-top: 5px;
+}
+
+.received_file .file_msg::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("data:image/png;base64,iVBORw0KGg....");
+  background-size: cover;
+  margin-right: 5px;
+}
+
+.sent_file {
+ 
+  float: right;
+  width: 46%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  background-color:#b9277578;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+.sent_file p {
+  border: 1px solid #000;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.sent_file .file_msg {
+  float: right;
+  font-size: 12px;
+  color: #888;
+  margin-top: 5px;
+}
+
+.sent_file .file_msg::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("data:image/png;base64,iVBORw0KGg....");
+  background-size: cover;
+  margin-right: 5px;
+}
+.file_icon {
+  width: 16px; /* Largeur de l'icône */
+  height: 16px; /* Hauteur de l'icône */
+  margin-right: 5px; /* Marge à droite pour l'espacement de l'image */
 }

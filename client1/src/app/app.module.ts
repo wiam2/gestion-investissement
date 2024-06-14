@@ -18,6 +18,7 @@ import { EditPosteComponent } from './edit-poste/edit-poste.component';
 import { DeleteposteComponent } from './deleteposte/deleteposte.component';
 import { ValidatePosteComponent } from './validate-poste/validate-poste.component';
 import { NotifiacationListComponent } from './notifiacation-list/notifiacation-list.component';
+import { ConversationComponent } from './conversation/conversation.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,9 @@ import { NotifiacationListComponent } from './notifiacation-list/notifiacation-l
      EditPosteComponent,
      DeleteposteComponent,
      ValidatePosteComponent,
-     NotifiacationListComponent
+     NotifiacationListComponent,
+     ConversationComponent
+
 
   ],
   imports: [

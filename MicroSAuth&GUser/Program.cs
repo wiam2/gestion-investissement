@@ -40,6 +40,8 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddRoles<IdentityRole>();
 builder.Services.AddScoped<InvestisseurRepository>();
 builder.Services.AddScoped<StartupRepository>();
+builder.Services.AddScoped<ApiRequests>();
+
 
 //jwt
 builder.Services.AddAuthentication(options =>
@@ -88,7 +90,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
     app.UseCors(policy =>
     {
-        policy.WithOrigins("http://localhost:5289", "https://localhost:44346", "https://localhost:7225/")
+        policy.WithOrigins("http://localhost:5289", "https://localhost:44346", "https://localhost:7225/" , "http://localhost:5055/")
         .AllowAnyMethod()
         .AllowAnyHeader()
         .WithHeaders(HeaderNames.ContentType);
