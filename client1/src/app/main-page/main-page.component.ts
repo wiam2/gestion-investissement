@@ -53,6 +53,7 @@ export class MainPageComponent implements OnInit {
   onFileSelected(event: any) {
     // Logique pour gérer la sélection de fichier
     this.selectedFile = event.target.files[0];
+    console.log(this.selectedFile );
   }
   submit() {
     const currentUser: user | null = this.authservice.currentUser();

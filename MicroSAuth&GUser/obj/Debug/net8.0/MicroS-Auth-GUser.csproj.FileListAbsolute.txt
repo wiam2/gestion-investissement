@@ -1294,3 +1294,6 @@ C:\Users\I511\OneDrive\Bureau\linkagemessage\gestion-investissement\MicroSAuth&G
 C:\Users\I511\OneDrive\Bureau\linkagemessage\gestion-investissement\MicroSAuth&GUser\obj\Debug\net8.0\MicroS-Auth-GUser.pdb
 C:\Users\I511\OneDrive\Bureau\linkagemessage\gestion-investissement\MicroSAuth&GUser\obj\Debug\net8.0\MicroS-Auth-GUser.genruntimeconfig.cache
 C:\Users\I511\OneDrive\Bureau\linkagemessage\gestion-investissement\MicroSAuth&GUser\obj\Debug\net8.0\ref\MicroS-Auth-GUser.dll
+C:\Users\I511\OneDrive\Bureau\test\gestion-investissement\MicroSAuth&GUser\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\I511\OneDrive\Bureau\test\gestion-investissement\MicroSAuth&GUser\bin\Debug\net8.0\MailKit.dll
+C:\Users\I511\OneDrive\Bureau\test\gestion-investissement\MicroSAuth&GUser\bin\Debug\net8.0\MimeKit.dll

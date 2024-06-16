@@ -40,11 +40,10 @@
               required></textarea>
           </div>
           <div class="form-control">
-            <input type="file" accept="image/*" id="image" name="image" (change)="onFileSelected($event)"
-              style="display:none;">
-            <i class="bi bi-images "></i>
-            <input placeholder="Sélectionner une image" onclick="document.getElementById('image').click();">
-          </div>
+            <input type="file" accept="image/*" id="image" name="image" style="display:none;" (change)="onFileSelected($event)">
+            <i class="bi bi-images"></i>
+            <input type="text" placeholder="Sélectionner une image" onclick="document.getElementById('image').click();" readonly>
+        </div>
           <div class="button-container">
             <div class="button violet-button">
               <input type="submit" (click)="submit()" value="Poster">

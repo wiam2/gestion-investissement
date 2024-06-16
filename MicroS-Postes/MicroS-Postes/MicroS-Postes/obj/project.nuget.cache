@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F4oTnqtQpMPIg9cFzqbXJ78OUBP+mxhmS1DHSYyTa3aXxSTbWwaFTFSkncORM8iK4W2ab6uZggUBwu02uqobqQ==",
+  "dgSpecHash": "VDOaaZXRuyi1LXuPn25dUmtNdZR2TGBlIwAy4FCGC2PoAOrvFPNNa7yucbKDs7iCFFL1BS8zdOEtfGjxTywaVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes.csproj",
+  "projectFilePath": "C:\\Users\\I511\\OneDrive\\Bureau\\test\\gestion-investissement\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes\\MicroS-Postes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\I511\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\I511\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

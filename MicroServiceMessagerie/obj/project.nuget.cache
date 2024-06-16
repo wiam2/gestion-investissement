@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hmmsa4+eaZZ+aMuAHalUA6QpqIDSUNacFdaj3XNL50XhBDavWy9Oid2I+578+NManJPFVZzBVAvAUeJhXscGTQ==",
+  "dgSpecHash": "ua4ByrNyJw5RO6cZ9ZhunsNlsLWZRKoL5TgobU5o/H/m3ZQr3v2e3ZTLEhrsO6CCRGMwqGCtTlRTbnXjmqaW9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\MicroServiceMessagerie.csproj",
+  "projectFilePath": "C:\\Users\\I511\\OneDrive\\Bureau\\test\\gestion-investissement\\MicroServiceMessagerie\\MicroServiceMessagerie.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\I511\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\I511\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

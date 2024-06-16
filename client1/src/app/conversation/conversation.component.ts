@@ -64,6 +64,12 @@ export class ConversationComponent implements OnInit {
     
   }
   gotopage(){
+   
+  
+      this.chatService.leaveChat();
+     
+  
+    
     this.router.navigate(['page']);
   }
   

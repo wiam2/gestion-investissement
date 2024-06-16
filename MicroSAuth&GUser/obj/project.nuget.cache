@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G1zSSl+XrM82JdZG2XP1fEZrqknVTiQvcgx4LHzSV1iBd2q8HNFY/+6tv3LqTii56HvEhRjcw2qr4td/he3LDg==",
+  "dgSpecHash": "1ty5zUxZEpWz33Yink7wbrVcNb9BnM3ekVuHI6+jczEJBGqRBL8d3/pLQmV+o+ajXQuHb02LLHe3AvRm8Xtlrg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroSAuth&GUser\\MicroS-Auth-GUser.csproj",
+  "projectFilePath": "C:\\Users\\I511\\OneDrive\\Bureau\\test\\gestion-investissement\\MicroSAuth&GUser\\MicroS-Auth-GUser.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\I511\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\I511\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

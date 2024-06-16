@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\MicroServiceMessagerie.csproj": {}
+    "C:\\Users\\I511\\OneDrive\\Bureau\\test\\gestion-investissement\\MicroServiceMessagerie\\MicroServiceMessagerie.csproj": {}
   },
   "projects": {
-    "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\MicroServiceMessagerie.csproj": {
+    "C:\\Users\\I511\\OneDrive\\Bureau\\test\\gestion-investissement\\MicroServiceMessagerie\\MicroServiceMessagerie.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\MicroServiceMessagerie.csproj",
+        "projectUniqueName": "C:\\Users\\I511\\OneDrive\\Bureau\\test\\gestion-investissement\\MicroServiceMessagerie\\MicroServiceMessagerie.csproj",
         "projectName": "MicroServiceMessagerie",
-        "projectPath": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\MicroServiceMessagerie.csproj",
+        "projectPath": "C:\\Users\\I511\\OneDrive\\Bureau\\test\\gestion-investissement\\MicroServiceMessagerie\\MicroServiceMessagerie.csproj",
         "packagesPath": "C:\\Users\\I511\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\I511\\OneDrive\\Bureau\\linkagemessage\\gestion-investissement\\MicroServiceMessagerie\\obj\\",
+        "outputPath": "C:\\Users\\I511\\OneDrive\\Bureau\\test\\gestion-investissement\\MicroServiceMessagerie\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
