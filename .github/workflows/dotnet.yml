@@ -1,0 +1,47 @@
+name: Build and Test Auth Microservice
+
+on:
+  push:
+    branches: [auth]
+  pull_request:
+    branches: [auth]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build the project
+        run: dotnet build --no-restore
+
+      - name: Run unit tests
+        run: dotnet test --no-build --verbosity normal
+
+      # Setup SQL Server 
+      - name: Setup SQL Server
+        uses: microsoft/setup-sql-action@v2
+        with:
+          sql-version: '2019-latest'
+
+      # Run integration tests
+      - name: Run integration tests
+        run: dotnet test --filter Category=Integration --no-build
+        env:
+          ASPNETCORE_ENVIRONMENT: "Test"
+          ConnectionStrings__DefaultConnection: "Server=localhost;Database=AuthDb;User Id=sa;Password=;"
+
+      # Run security checks
+      - name: Run security checks 
+        run: dotnet tool run security-check --project ./src/AuthService
+
