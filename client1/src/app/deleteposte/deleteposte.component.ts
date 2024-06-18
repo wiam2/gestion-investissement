@@ -52,6 +52,7 @@ export class DeleteposteComponent implements OnInit {
     if (this.role == 'Invest') {
       this.posteService.deletePosteInv(this.idPoste).subscribe(data => {
           console.log(data);
+        location.reload();
         });
       this.elementRef.nativeElement.remove();
       this.submitEvent.emit();
@@ -59,6 +60,7 @@ export class DeleteposteComponent implements OnInit {
     else {
       this.posteService.deletePosteStar(this.idPoste).subscribe(data => {
         console.log(data);
+        location.reload();
       });
       this.elementRef.nativeElement.remove();
       this.submitEvent.emit();

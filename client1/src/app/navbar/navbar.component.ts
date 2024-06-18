@@ -29,7 +29,10 @@ export class NavbarComponent {
     this.router.navigate(['./conversation']);
 
   }
+  myHome(){
+    this.router.navigate(['./page']);
 
+  }
   openModalNotif(modalPosteTemplate:TemplateRef<any>) {
     this.NotifService
       .open(modalPosteTemplate)

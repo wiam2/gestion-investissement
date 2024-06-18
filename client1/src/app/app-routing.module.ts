@@ -13,6 +13,7 @@ import {DeleteProfileComponent} from "./delete-profile/delete-profile.component"
 import {EditPosteComponent} from "./edit-poste/edit-poste.component";
 import {NotifiacationListComponent} from "./notifiacation-list/notifiacation-list.component";
 import { ConversationComponent } from './conversation/conversation.component';
+
 const routes: Routes = [
   {
     path:'',
@@ -38,12 +39,12 @@ const routes: Routes = [
     path:'profile/:id',
     component:ProfileComponent
   },
-  
-   
+
+
       {path:'conversation', component:ConversationComponent ,children:[
         {path:'chat/:email', component:ChatboxComponent}]}
-      
-      
+
+
 ,
 
   {
@@ -59,6 +60,7 @@ const routes: Routes = [
     path:'notif',
     component:NotifiacationListComponent
   },
+
 ];
 
 

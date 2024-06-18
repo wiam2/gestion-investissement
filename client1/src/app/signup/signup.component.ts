@@ -69,15 +69,17 @@ export class SignupComponent implements OnInit {
     console.log(this.Investisseur)
     this.CreateInvestisseur();
 
+    this.router.navigate(['/login']);
+
   }
   onSubmit1() {
     this.Startup.email = this.User.email;
     this.Startup.password = this.User.password;
     this.Startup.confirmPassword = this.User.confirmPassword;
 
-    console.log(this.Startup)
+    console.log(this.Startup);
     this.CreateStarup();
-
+    this.router.navigate(['/login']);
   }
 
   redirectToHome() {

@@ -20,6 +20,7 @@ import { ValidatePosteComponent } from './validate-poste/validate-poste.componen
 import { NotifiacationListComponent } from './notifiacation-list/notifiacation-list.component';
 import { ConversationComponent } from './conversation/conversation.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +38,7 @@ import { ConversationComponent } from './conversation/conversation.component';
      DeleteposteComponent,
      ValidatePosteComponent,
      NotifiacationListComponent,
-     ConversationComponent
+     ConversationComponent,
 
 
   ],

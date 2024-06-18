@@ -238,11 +238,14 @@ width: 120%;
   display: inline-block; /* Assurez-vous que le span se comporte comme un bloc en ligne */
 }
 .post-image {
-  margin-top: -40px; /* Espacement avec le texte */
-  text-align: center; /* Centrer l'image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .post-image img {
-  max-width: 60%; /* Pour s'assurer que l'image reste dans le conteneur */
-  height: auto; /* Pour préserver le ratio hauteur/largeur */
+  margin: 15px;
+  max-width: 80%;
+  height: auto;
+  display: block;
 }

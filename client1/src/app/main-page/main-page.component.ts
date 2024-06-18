@@ -27,7 +27,7 @@ export class MainPageComponent implements OnInit {
   nom: any;
   idOwner:string="";
   useremail:string="";
- 
+
   chatService = inject(ChatService);
   constructor(private authservice: AuthService, private router: Router, private route: ActivatedRoute, private posteService: PosteService, private investService: InvestisseurService, private startService: StartupService) { }
   ngOnInit(): void {
@@ -45,10 +45,10 @@ export class MainPageComponent implements OnInit {
     this.loadPost();
   }
   setId(idOwner: any) {
-  
-      this.idOwner = idOwner;
-      console.log(this.idOwner);
-  //  this.getOwnerName();
+
+    this.idOwner = idOwner;
+    console.log(this.idOwner);
+    //  this.getOwnerName();
   }
   onFileSelected(event: any) {
     // Logique pour gérer la sélection de fichier
@@ -99,51 +99,51 @@ export class MainPageComponent implements OnInit {
   }
 
 
-loadPost() {
-  let postsObservable: Observable<any>;
+  loadPost() {
+    let postsObservable: Observable<any>;
 
-  if (this.role === "Invest") {
-    postsObservable = this.posteService.getPostsForInv().pipe(
-      switchMap(posts => {
-        const observables: Observable<any>[] = posts.map(post => this.startService.GetProfileStartup(post.idOwner));
-        return forkJoin(observables).pipe(
-          map(noms => {
-            posts.forEach((post, index) => {
-              post.nomOwner = noms[index].nomstr;
-              post.emailowner=noms[index].email;
-            });
-            return posts;
-          })
-        );
-      })
-    );
-  } else {
-    postsObservable = this.posteService.getPostsForStar().pipe(
-      switchMap(posts => {
-        const observables: Observable<any>[] = posts.map(post => this.investService.GetProfileInv(post.idOwner));
-        return forkJoin(observables).pipe(
-          map(noms => {
-            posts.forEach((post, index) => {
-              post.nomOwner = noms[index].nom + " " + noms[index].prenom;
-              post.emailowner=noms[index].email;
-            });
-            return posts;
-          })
-        );
-      })
+    if (this.role === "Invest") {
+      postsObservable = this.posteService.getPostsForInv().pipe(
+        switchMap(posts => {
+          const observables: Observable<any>[] = posts.map(post => this.startService.GetProfileStartup(post.idOwner));
+          return forkJoin(observables).pipe(
+            map(noms => {
+              posts.forEach((post, index) => {
+                post.nomOwner = noms[index].nomstr;
+                post.emailowner=noms[index].email;
+              });
+              return posts;
+            })
+          );
+        })
+      );
+    } else {
+      postsObservable = this.posteService.getPostsForStar().pipe(
+        switchMap(posts => {
+          const observables: Observable<any>[] = posts.map(post => this.investService.GetProfileInv(post.idOwner));
+          return forkJoin(observables).pipe(
+            map(noms => {
+              posts.forEach((post, index) => {
+                post.nomOwner = noms[index].nom + " " + noms[index].prenom;
+                post.emailowner=noms[index].email;
+              });
+              return posts;
+            })
+          );
+        })
+      );
+    }
+
+    postsObservable.subscribe(
+      (data) => {
+        console.log(data);
+        this.Posts = data;
+      },
+      error => {
+        console.log(error);
+      }
     );
   }
-
-  postsObservable.subscribe(
-    (data) => {
-      console.log(data);
-      this.Posts = data;
-    },
-    error => {
-      console.log(error);
-    }
-  );
-}
 
   // getOwnerName() :Observable<string>{
   //   if (this.role == "Invest") {
@@ -169,7 +169,7 @@ loadPost() {
   //     );
   //   }
   //   return this.nom
-    
+
   // }
 
 
@@ -207,20 +207,17 @@ loadPost() {
     }
   }
   joinRoom(user: string, room: string,name :string) {
-    console.log(user, room);   
-     this.chatService.start(); // Reconnexion à SignalR après avoir rejoint la salle
+    console.log(user, room);
+    this.chatService.start(); // Reconnexion à SignalR après avoir rejoint la salle
     this.chatService.joinRoom(user, room)
       .then(() => {
         sessionStorage.setItem("me", user);
         sessionStorage.setItem("contact", name);
-        
-       
-       
+
         this.router.navigate(['conversation/chat',name]);
       }).catch((err) => {
-        console.log(err);
-      })
+      console.log(err);
+    })
   }
 
 }
-

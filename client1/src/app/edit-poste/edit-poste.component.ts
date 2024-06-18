@@ -53,6 +53,7 @@ export class EditPosteComponent implements OnInit {
           this.posteService.UpdatePosteInv(this.poste.id, this.poste).subscribe(
             (data) => {
               console.log(data);
+              location.reload();
             },
             (error) => console.log(error)
           );
